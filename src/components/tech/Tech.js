@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import TechItem from '../techItem/TechItem';
 
 const Tech = () => {
     return (
@@ -7,9 +8,16 @@ const Tech = () => {
             <Title>Tech I am familiar with:</Title>
             <TechBody>
                 <TechWrapper>
-                    <TechItem>
-
-                    </TechItem>
+                    <TechItem/>
+                    <TechItem/>
+                    <TechItem/>
+                    <TechItem/>
+                    <TechItem/>
+                    <TechItem/>
+                    <TechItem/>
+                    <TechItem/>
+                    <TechItem/>
+                    <TechItem/>
                 </TechWrapper>
             </TechBody>
         </TechContainer>
@@ -43,13 +51,9 @@ width: 60%;
 display: grid;
 grid-gap: 25px;
 gap: 25px;
-font-size: 13px;
 margin-left: auto;
 margin-right: auto;
-grid-template-columns: repeat(8, minmax(0, 1fr));
-`;
-
-const TechItem = styled.div`
+grid-template-columns: repeat(4, minmax(0, 1fr));
 `;
 
 export default Tech
