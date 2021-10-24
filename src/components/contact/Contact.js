@@ -1,6 +1,7 @@
 import React, { useState, useRef } from 'react'
 import styled from 'styled-components'
 import emailjs from 'emailjs-com';
+import { AccessAlarm } from '@material-ui/icons';
 
 const Contact = () => {
     const formRef = useRef()
@@ -21,7 +22,15 @@ const Contact = () => {
     return (
         <Container>
             <LeftContainer>
-                Hello world
+                <ConnectContainer>
+                    Let's connect
+                </ConnectContainer>
+                <ConnectDesc>
+                    My inboxes are always open!
+                </ConnectDesc>
+                <Icons>
+                    <AccessAlarm/>
+                </Icons>
             </LeftContainer>
             <RightContainer>
                 <Desc>
@@ -47,10 +56,23 @@ width: 100vw;
 display: flex;
 flex-direction: row;
 `;
+
 const LeftContainer = styled.div`
 background-color: black;
 color: white;
 flex: 1;
+`;
+
+const ConnectContainer = styled.div`
+
+`;
+
+const ConnectDesc = styled.div`
+
+`;
+
+const Icons = styled.div`
+
 `;
 
 const RightContainer = styled.div`

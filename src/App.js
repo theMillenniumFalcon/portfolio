@@ -5,6 +5,7 @@ import ProjectList from "./components/projectList/ProjectList";
 import styled from 'styled-components'
 import Contact from "./components/contact/Contact";
 import Toggle from "./components/toggle/Toggle";
+import BlogList from "./components/blogList/BlogList";
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
       <TechList/>
       <Divider/>
       <ProjectList/>
+      <Divider/>
+      <BlogList/>
       <Divider/>
       <Contact/>
     </Container>
