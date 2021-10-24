@@ -1,6 +1,6 @@
 import Divider from "./components/divider/Divider";
 import Hero from "./components/hero/Hero";
-import Tech from "./components/tech/Tech";
+import TechList from "./components/techList/TechList";
 import ProjectList from "./components/projectList/ProjectList";
 import styled from 'styled-components'
 import Contact from "./components/contact/Contact";
@@ -12,7 +12,7 @@ function App() {
       <Toggle/>
       <Hero/>
       <Divider/>
-      <Tech/>
+      <TechList/>
       <Divider/>
       <ProjectList/>
       <Divider/>

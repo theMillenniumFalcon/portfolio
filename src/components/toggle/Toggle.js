@@ -10,7 +10,7 @@ const Toggle = () => {
 }
 
 const Container = styled.div`
-
+position: absolute;
 `;
 
 export default Toggle

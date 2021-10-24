@@ -31,6 +31,7 @@ const Hero = () => {
 const HeroContainer = styled.div`
 display: flex;
 height: 100vh;
+position: relative;
 `;
 
 const LeftContainer = styled.div`
