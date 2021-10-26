@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react'
 import styled from 'styled-components'
 import emailjs from 'emailjs-com';
-import { AccessAlarm } from '@material-ui/icons';
+import { EmailOutlined, Twitter, GitHub, LinkedIn } from '@material-ui/icons';
 
 const Contact = () => {
     const formRef = useRef()
@@ -18,7 +18,7 @@ const Contact = () => {
             console.log(error.text)
         });
     }
-
+    
     return (
         <Container>
             <LeftContainer>
@@ -29,7 +29,18 @@ const Contact = () => {
                     My inboxes are always open!
                 </ConnectDesc>
                 <Icons>
-                    <AccessAlarm/>
+                    <Icon>
+                        <EmailOutlined/>
+                    </Icon>
+                    <Icon>
+                        <Twitter/>
+                    </Icon>
+                    <Icon>
+                        <GitHub/>
+                    </Icon>
+                    <Icon>
+                        <LinkedIn/>
+                    </Icon>
                 </Icons>
             </LeftContainer>
             <RightContainer>
@@ -51,7 +62,7 @@ const Contact = () => {
 }
 
 const Container = styled.div`
-height: 100vh;
+height: 80vh;
 width: 100vw;
 display: flex;
 flex-direction: row;
@@ -59,6 +70,7 @@ flex-direction: row;
 
 const LeftContainer = styled.div`
 background-color: black;
+height: 100%;
 color: white;
 flex: 1;
 `;
@@ -72,7 +84,11 @@ const ConnectDesc = styled.div`
 `;
 
 const Icons = styled.div`
+display: flex;
+`;
 
+const Icon = styled.div`
+cursor: pointer;
 `;
 
 const RightContainer = styled.div`

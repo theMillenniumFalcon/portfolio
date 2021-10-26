@@ -11,14 +11,18 @@ const TechItem = () => {
 }
 
 const Container = styled.div`
-border: 1px solid black;
 border-radius: 4px;
-margin: 10px 50px;
+margin: 25px 30px;
 height: 40px;
-width:100px;
+width:110px;
 display: flex;
 align-items: center;
 justify-content: center;
+cursor: pointer;
+transition: all 0.2s ease 0s;
+&:hover {
+    background-color: #E0E0E0;
+}
 `;
 
 const Logo = styled.img`
