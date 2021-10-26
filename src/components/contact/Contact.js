@@ -1,11 +1,14 @@
-import React, { useState, useRef } from 'react'
+import React, { useState, useRef, useContext } from 'react'
 import styled from 'styled-components'
 import emailjs from 'emailjs-com';
+import { ThemeContext } from '../../context/context';
 import { EmailOutlined, Twitter, GitHub, LinkedIn } from '@material-ui/icons';
 
 const Contact = () => {
     const formRef = useRef()
     const [done, setDone] = useState(false)
+    const theme = useContext(ThemeContext)
+    const darkMode = theme.state.darkMode
 
     const handleSubmit = (e) => {
         e.preventDefault()
@@ -49,9 +52,9 @@ const Contact = () => {
                 </Desc>
                 <Form>
                     <form ref={formRef} onSubmit={handleSubmit}>
-                        <input type="text" placeholder="Name" name="user_name"/>
-                        <input type="text" placeholder="Email" name="user_email"/>
-                        <textarea rows="5" placeholder="Message" name="message"/>
+                        <input style={{backgroundColor: darkMode && 'black'}} type="text" placeholder="Name" name="user_name"/>
+                        <input style={{backgroundColor: darkMode && 'black'}} type="text" placeholder="Email" name="user_email"/>
+                        <textarea style={{backgroundColor: darkMode && 'black'}} rows="5" placeholder="Message" name="message"/>
                         <Button>Send</Button>
                         {done && "Thank you..."}
                     </form>

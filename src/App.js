@@ -1,15 +1,26 @@
+import { useContext } from 'react'
 import Divider from "./components/divider/Divider";
 import Hero from "./components/hero/Hero";
 import TechList from "./components/techList/TechList";
 import ProjectList from "./components/projectList/ProjectList";
-import styled from 'styled-components'
 import Contact from "./components/contact/Contact";
 import Toggle from "./components/toggle/Toggle";
 import BlogList from "./components/blogList/BlogList";
+import { ThemeContext } from './context/context';
 
 function App() {
+
+  const theme = useContext(ThemeContext)
+  const darkMode = theme.state.darkMode
+
   return (
-    <Container>
+    <div
+    style={{
+      backgroundColor: darkMode ? "black" : "white",
+      color: darkMode && "white",
+      overflow: "hidden"
+    }}
+    >
       <Toggle/>
       <Hero/>
       <Divider/>
@@ -20,12 +31,8 @@ function App() {
       <BlogList/>
       <Divider/>
       <Contact/>
-    </Container>
+    </div>
   );
 }
-
-const Container = styled.div`
-overflow-x: hidden;
-`;
 
 export default App;
