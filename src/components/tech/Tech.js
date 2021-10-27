@@ -19,10 +19,6 @@ display: flex;
 align-items: center;
 justify-content: center;
 cursor: pointer;
-transition: all 0.2s ease 0s;
-&:hover {
-    background-color: #E0E0E0;
-}
 `;
 
 const Logo = styled.img`
