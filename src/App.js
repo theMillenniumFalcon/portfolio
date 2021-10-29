@@ -1,38 +1,24 @@
-import { useContext } from 'react'
-import Divider from "./components/divider/Divider";
 import Hero from "./components/hero/Hero";
-import TechList from "./components/techList/TechList";
+import Tech from "./components/tech/Tech";
 import ProjectList from "./components/projectList/ProjectList";
 import Contact from "./components/contact/Contact";
-import Toggle from "./components/toggle/Toggle";
 import BlogList from "./components/blogList/BlogList";
-import { ThemeContext } from './context/context';
+import styled from 'styled-components'
 
 function App() {
-
-  const theme = useContext(ThemeContext)
-  const darkMode = theme.state.darkMode
-
   return (
-    <div
-    style={{
-      backgroundColor: darkMode ? "black" : "white",
-      color: darkMode && "white",
-      overflow: "hidden"
-    }}
-    >
-      <Toggle/>
+    <Container>
       <Hero/>
-      <Divider/>
-      <TechList/>
-      <Divider/>
+      <Tech/>
       <ProjectList/>
-      <Divider/>
       <BlogList/>
-      <Divider/>
       <Contact/>
-    </div>
+    </Container>
   );
 }
+
+const Container = styled.div`
+overflow: hidden;
+`;
 
 export default App;

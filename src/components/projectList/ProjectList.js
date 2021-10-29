@@ -24,18 +24,15 @@ const ProjectList = () => {
 }
 
 const ListContainer = styled.div`
-border: 1px solid black;
 display: flex;
 flex-direction: column;
 `;
 
 const ListText = styled.div`
-border: 1px solid black;
 width: 100%;
 `;
 
 const Title = styled.div`
-border: 1px solid black;
 flex: 1;
 font-size: 60px;
 margin-top: 40px;
@@ -43,14 +40,12 @@ padding: 0px 40px;
 `;
 
 const Desc = styled.p`
-border: 1px solid black;
 margin-top: 0px;
 padding: 0 40px;
 font-size: 17px;
 `;
 
 const List = styled.div`
-border: 1px solid black;
 display: flex;
 flex-wrap: wrap;
 margin-top: 20px;

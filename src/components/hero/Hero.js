@@ -35,15 +35,13 @@ position: relative;
 `;
 
 const LeftContainer = styled.div`
-border: 1px solid black;
-flex: 1;
+flex: 2;
 display: flex;
 align-items: center;
 justify-content: center;
 `;
 
 const LeftWrapper = styled.div`
-border: 1px solid black;
 padding: 50px;
 height: 55%;
 display: flex;
@@ -56,7 +54,6 @@ font-size: 72px;
 `;
 
 const Title = styled.div`
-border: 1px solid black;
 height: 130px;
 `;
 
@@ -73,7 +70,6 @@ font-size: 23px;
 
 const RightContainer = styled.div`
 flex: 1;
-border: 1px solid black;
 `;
 
 const RightWrapper = styled.div`

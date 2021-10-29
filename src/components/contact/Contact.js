@@ -1,15 +1,12 @@
-import React, { useState, useRef, useContext } from 'react'
+import React, { useState, useRef } from 'react'
 import styled from 'styled-components'
 import emailjs from 'emailjs-com';
-import { ThemeContext } from '../../context/context';
 import { EmailOutlined, Twitter, GitHub, LinkedIn } from '@material-ui/icons';
 
 const Contact = () => {
     const formRef = useRef()
     const [done, setDone] = useState(false)
-    const theme = useContext(ThemeContext)
-    const darkMode = theme.state.darkMode
-
+    
     const handleSubmit = (e) => {
         e.preventDefault()
 
@@ -26,10 +23,10 @@ const Contact = () => {
         <Container>
             <LeftContainer>
                 <ConnectContainer>
-                    Let's connect
+                    Let's connect!
                 </ConnectContainer>
                 <ConnectDesc>
-                    My inboxes are always open!
+                    My inboxes are always open:
                 </ConnectDesc>
                 <Icons>
                     <Icon>
@@ -45,6 +42,9 @@ const Contact = () => {
                         <LinkedIn/>
                     </Icon>
                 </Icons>
+                <Message>
+                    Made with 🤍 by Nishank
+                </Message>
             </LeftContainer>
             <RightContainer>
                 <Desc>
@@ -52,9 +52,9 @@ const Contact = () => {
                 </Desc>
                 <Form>
                     <form ref={formRef} onSubmit={handleSubmit}>
-                        <input style={{backgroundColor: darkMode && 'black'}} type="text" placeholder="Name" name="user_name"/>
-                        <input style={{backgroundColor: darkMode && 'black'}} type="text" placeholder="Email" name="user_email"/>
-                        <textarea style={{backgroundColor: darkMode && 'black'}} rows="5" placeholder="Message" name="message"/>
+                        <input type="text" placeholder="Name" name="user_name"/>
+                        <input type="text" placeholder="Email" name="user_email"/>
+                        <textarea rows="5" placeholder="Message" name="message"/>
                         <Button>Send</Button>
                         {done && "Thank you..."}
                     </form>
@@ -76,22 +76,38 @@ background-color: black;
 height: 100%;
 color: white;
 flex: 1;
+display: flex;
+flex-direction: column;
+padding: 100px 25px;
 `;
 
 const ConnectContainer = styled.div`
-
+font-size: 95px;
+font-weight: 300;
+letter-spacing: 6px;
 `;
 
 const ConnectDesc = styled.div`
-
+font-size: 40px;
+font-weight: 300;
+letter-spacing: 6px;
+margin-top: 150px;
 `;
 
 const Icons = styled.div`
 display: flex;
 `;
 
+const Message = styled.div`
+margin-top: 30px;
+font-size: 20px;
+display: flex;
+justify-content: center;
+`;
+
 const Icon = styled.div`
 cursor: pointer;
+margin-right: 25px;
 `;
 
 const RightContainer = styled.div`
