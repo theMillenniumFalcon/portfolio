@@ -16,11 +16,11 @@ function App() {
 const AppContainer = styled.div`
 background-color: #222;
 height: 100vh;
-weight: 100vw;
+width: 100vw;
+overflow-x: hidden;
 `;
 
 const AppWrapper = styled.div`
-border: 1px solid white;
 height: 100vh;
 width: 50%;
 margin: auto;

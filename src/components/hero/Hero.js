@@ -49,7 +49,7 @@ const HeroDesc = styled.div`
 color: white;
 box-sizing: border-box;
 font-size: 17px;
-font-weight: 300;
+font-weight: 400;
 line-height: 1.15;
 margin-top: 10px;
 `;
