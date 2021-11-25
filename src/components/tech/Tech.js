@@ -25,7 +25,10 @@ font-weight: 400;
 `;
 
 const TechItemWrapper = styled.div`
-margin-top: 10px;
+margin-top: 20px;
+border: 1px solid white;
+width: 80%;
+margin: auto;
 `;
 
 export default Tech
