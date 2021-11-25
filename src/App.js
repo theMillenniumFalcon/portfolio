@@ -1,24 +1,25 @@
-import Hero from "./components/hero/Hero";
-import Tech from "./components/tech/Tech";
-import ProjectList from "./components/projectList/ProjectList";
-import Contact from "./components/contact/Contact";
-import BlogList from "./components/blogList/BlogList";
-import styled from 'styled-components'
+import logo from './logo.svg';
+import './App.css';
 
 function App() {
   return (
-    <Container>
-      <Hero/>
-      <Tech/>
-      <ProjectList/>
-      <BlogList/>
-      <Contact/>
-    </Container>
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
   );
 }
-
-const Container = styled.div`
-overflow: hidden;
-`;
 
 export default App;
