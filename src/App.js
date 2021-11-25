@@ -1,11 +1,13 @@
 import styled from "styled-components"
 import Hero from "./components/hero/Hero";
+import Tech from "./components/tech/Tech";
 
 function App() {
   return (
     <AppContainer>
       <AppWrapper>
         <Hero/>
+        <Tech/>
       </AppWrapper>
     </AppContainer>
   );

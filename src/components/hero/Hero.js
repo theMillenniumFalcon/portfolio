@@ -41,7 +41,7 @@ font-family: 'Source Code Pro', monospace;
 
 const HeroName  = styled.div`
 color: #ff424d;
-font-size: 30px;
+font-size: 35px;
 font-weight: 500;
 `;
 
