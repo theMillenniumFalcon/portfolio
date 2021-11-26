@@ -54,7 +54,7 @@ const Skill = () => {
 }
 
 const SkillContainer = styled.div`
-margin-top: 20px;
+margin-top: 40px;
 font-family: 'Source Code Pro', monospace;
 color: white;
 `;
@@ -65,7 +65,7 @@ font-weight: 400;
 `;
 
 const SkillItemWrapper = styled.div`
-margin-top: 20px;
+margin-top: 25px;
 width: 90%;
 margin-right: auto;
 margin-left: auto;

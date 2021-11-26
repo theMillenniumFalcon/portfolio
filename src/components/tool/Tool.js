@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from "styled-components"
-import ToolItem from '../toolitem/ToolItem';
+import ToolItem from '../toolitem/ToolItem'
 
 const Tool = () => {
     return (
@@ -14,7 +14,7 @@ const Tool = () => {
 }
 
 const ToolContainer = styled.div`
-margin-top: 30px;
+margin-top: 40px;
 font-family: 'Source Code Pro', monospace;
 color: white;
 `;
@@ -25,7 +25,7 @@ font-weight: 400;
 `;
 
 const ToolItemWrapper = styled.div`
-margin-top: 20px;
+margin-top: 25px;
 width: 80%;
 margin-right: auto;
 margin-left: auto;

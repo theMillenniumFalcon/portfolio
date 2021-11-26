@@ -57,7 +57,7 @@ margin-top: 10px;
 const HeroSocials = styled.div`
 display: flex;
 align-items: center;
-margin-top: 10px;
+margin-top: 15px;
 padding: 0 10px;
 `;
 

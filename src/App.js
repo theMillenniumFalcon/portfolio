@@ -2,6 +2,7 @@ import styled from "styled-components"
 import Hero from "./components/hero/Hero"
 import Skill from "./components/skill/Skill"
 import Tool from "./components/tool/Tool"
+import Work from "./components/work/Work";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <Hero/>
         <Skill/>
         <Tool/>
+        <Work/>
       </AppWrapper>
     </AppContainer>
   );
