@@ -1,13 +1,15 @@
 import styled from "styled-components"
-import Hero from "./components/hero/Hero";
-import Tech from "./components/tech/Tech";
+import Hero from "./components/hero/Hero"
+import Skill from "./components/skill/Skill"
+import Tool from "./components/tool/Tool"
 
 function App() {
   return (
     <AppContainer>
       <AppWrapper>
         <Hero/>
-        <Tech/>
+        <Skill/>
+        <Tool/>
       </AppWrapper>
     </AppContainer>
   );

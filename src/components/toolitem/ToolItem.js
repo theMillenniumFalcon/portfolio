@@ -1,9 +1,9 @@
 import React from 'react'
 import styled from "styled-components"
 
-const TechItem = () => {
+const ToolItem = () => {
     return (
-        <TechItemContainer>
+        <ToolItemContainer>
             <Item>
                 <img src="assets/techlogo/java.png" alt=""/>
                 <span>Java</span>
@@ -52,11 +52,11 @@ const TechItem = () => {
                 <img src="assets/techlogo/git.png" alt=""/>
                 <span>Git</span>
             </Item>
-        </TechItemContainer>
+        </ToolItemContainer>
     )
 }
 
-const TechItemContainer = styled.div`
+const ToolItemContainer = styled.div`
 display: grid;
 grid-gap: 25px;
 gap: 25px;
@@ -81,4 +81,4 @@ span {
 `;
 
 
-export default TechItem
+export default ToolItem
