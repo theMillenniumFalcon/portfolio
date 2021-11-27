@@ -72,12 +72,11 @@ margin-left: auto;
 display: grid;
 grid-gap: 25px;
 gap: 15px;
-font-size: 17px;
 grid-template-columns: repeat(2, minmax(0, 1fr));
 `;
 
 const SkillItem = styled.div`
-
+font-size: 17px;
 `;
 
 export default Skill

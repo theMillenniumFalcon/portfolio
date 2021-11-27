@@ -1,12 +1,13 @@
 import React from 'react'
 import styled from "styled-components"
+import ProjectItem from '../projectitem/ProjectItem';
 
 const Project = () => {
     return (
         <ProjectContainer>
             <ProjectTitle>Projects I have worked on:</ProjectTitle>
             <ProjectItemWrapper>
-
+                <ProjectItem/>
             </ProjectItemWrapper>
         </ProjectContainer>
     )

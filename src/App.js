@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import Blog from "./components/blog/Blog";
 import Hero from "./components/hero/Hero"
 import Project from "./components/project/Project";
 import Skill from "./components/skill/Skill"
@@ -16,6 +17,7 @@ function App() {
         <Work/>
         <Voluntary/>
         <Project/>
+        <Blog/>
       </AppWrapper>
     </AppContainer>
   );
