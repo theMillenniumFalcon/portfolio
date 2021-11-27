@@ -60,7 +60,7 @@ color: white;
 `;
 
 const SkillTitle = styled.div`
-font-size: 20px;
+font-size: 25px;
 font-weight: 400;
 `;
 
@@ -71,7 +71,7 @@ margin-right: auto;
 margin-left: auto;
 display: grid;
 grid-gap: 25px;
-gap: 25px;
+gap: 15px;
 font-size: 17px;
 grid-template-columns: repeat(2, minmax(0, 1fr));
 `;

@@ -20,7 +20,7 @@ color: white;
 `;
 
 const ToolTitle = styled.div`
-font-size: 20px;
+font-size: 25px;
 font-weight: 400;
 `;
 

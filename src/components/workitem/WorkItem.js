@@ -5,39 +5,65 @@ const WorkItem = () => {
     return (
         <WorkItemContainer>
             <WorkComponent>
-                <WorkPosition>Graphics Designer Intern</WorkPosition>
-                <WorkOrganization>Yellow Fishes</WorkOrganization>
+                <WorkPosition>‣ Graphics Designer Intern</WorkPosition>
+                <WorkOrganization>
+                    <span>Yellow fishes</span>
+                </WorkOrganization>
                 <WorkDuration>April 2016 - June 2016</WorkDuration>
-                <WorkResponsibilities></WorkResponsibilities>
+                <WorkResponsibilities>
+                    <span>• Data structures and algorithms</span>
+                    <span>• Data structures and algorithms</span>
+                </WorkResponsibilities>
             </WorkComponent>
         </WorkItemContainer>
     )
 }
 
 const WorkItemContainer = styled.div`
-margin-top: 40px;
 font-family: 'Source Code Pro', monospace;
 color: white;
 `;
 
 const WorkComponent = styled.div`
-
+margin-bottom: 30px;
 `;
 
 const WorkPosition = styled.div`
-
+font-size: 17px;
+font-weight: 400;
+margin-bottom: 5px;
 `;
 
 const WorkOrganization = styled.div`
-
+color: #ff424d;
+font-size: 15px;
+font-weight: 400;
+margin-left: 15px;
+margin-bottom: 5px;
+span {
+    cursor: pointer;
+}
 `;
 
 const WorkDuration = styled.div`
-
+color: white;
+font-size: 15px;
+font-weight: 400;
+padding-left: 15px;
+margin-bottom: 5px;
 `;
 
 const WorkResponsibilities = styled.div`
-
+color: white;
+display: flex;
+flex-direction: column;
+font-size: 15px;
+font-weight: 400;
+padding-left: 15px;
+margin-bottom: 5px;
+span {
+    margin-bottom: 3px;
+}
 `;
 
 export default WorkItem

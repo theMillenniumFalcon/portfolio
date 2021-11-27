@@ -20,13 +20,13 @@ color: white;
 `;
 
 const WorkTitle = styled.div`
-font-size: 20px;
+font-size: 25px;
 font-weight: 400;
 `;
 
 const WorkItemWrapper = styled.div`
 margin-top: 20px;
-width: 80%;
+width: 95%;
 margin-right: auto;
 margin-left: auto;
 `;

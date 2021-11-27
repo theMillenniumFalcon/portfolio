@@ -1,7 +1,9 @@
 import styled from "styled-components"
 import Hero from "./components/hero/Hero"
+import Project from "./components/project/Project";
 import Skill from "./components/skill/Skill"
 import Tool from "./components/tool/Tool"
+import Voluntary from "./components/voluntary/Voluntary";
 import Work from "./components/work/Work";
 
 function App() {
@@ -12,6 +14,8 @@ function App() {
         <Skill/>
         <Tool/>
         <Work/>
+        <Voluntary/>
+        <Project/>
       </AppWrapper>
     </AppContainer>
   );
