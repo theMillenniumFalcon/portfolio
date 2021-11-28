@@ -3,6 +3,7 @@ import Blog from "./components/blog/Blog";
 import Hero from "./components/hero/Hero"
 import Project from "./components/project/Project";
 import Skill from "./components/skill/Skill"
+import Talk from "./components/talk/Talk";
 import Tool from "./components/tool/Tool"
 import Voluntary from "./components/voluntary/Voluntary";
 import Work from "./components/work/Work";
@@ -18,6 +19,7 @@ function App() {
         <Voluntary/>
         <Project/>
         <Blog/>
+        <Talk/>
       </AppWrapper>
     </AppContainer>
   );

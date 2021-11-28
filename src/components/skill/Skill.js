@@ -28,7 +28,7 @@ const Skill = () => {
                     • Computer graphics
                 </SkillItem>
                 <SkillItem>
-                    • Computer vision
+                    • Object oriented programming
                 </SkillItem>
                 <SkillItem>
                     • Containerization

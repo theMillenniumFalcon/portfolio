@@ -65,9 +65,6 @@ const SocialIcon = styled.div`
 color: white;
 cursor: pointer;
 margin-right: 15px;
-&:hover {
-    color: #ff424d;
-}
 `;
 
 export default Hero
