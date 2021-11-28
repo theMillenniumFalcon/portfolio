@@ -20,7 +20,7 @@ color: white;
 `;
 
 const TalkTitle = styled.div`
-font-size: 25px;
+font-size: 30px;
 font-weight: 400;
 `;
 

@@ -60,7 +60,7 @@ color: white;
 `;
 
 const SkillTitle = styled.div`
-font-size: 25px;
+font-size: 30px;
 font-weight: 400;
 `;
 

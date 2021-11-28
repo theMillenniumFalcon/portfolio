@@ -51,7 +51,7 @@ margin-bottom: 30px;
 `;
 
 const ProjectTitle = styled.div`
-font-size: 17px;
+font-size: 20px;
 font-weight: 400;
 margin-bottom: 5px;
 `;

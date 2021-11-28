@@ -11,6 +11,27 @@ const TalkItem = () => {
                 <TalkTime>December 2021</TalkTime>
                 <TalkName>Getting started with freelancing</TalkName>
             </Talk>
+            <Talk>
+                <TalkImg>
+                <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" />
+                </TalkImg>
+                <TalkTime>December 2021</TalkTime>
+                <TalkName>Getting started with freelancing</TalkName>
+            </Talk>
+            <Talk>
+                <TalkImg>
+                <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" />
+                </TalkImg>
+                <TalkTime>December 2021</TalkTime>
+                <TalkName>Getting started with freelancing</TalkName>
+            </Talk>
+            <Talk>
+                <TalkImg>
+                <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" />
+                </TalkImg>
+                <TalkTime>December 2021</TalkTime>
+                <TalkName>Getting started with freelancing</TalkName>
+            </Talk>
         </TalkItemContainer>
     )
 }
