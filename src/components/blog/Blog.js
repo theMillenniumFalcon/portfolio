@@ -1,13 +1,12 @@
 import React from 'react'
 import styled from "styled-components"
-import BlogItem from '../blogitem/BlogItem';
 
 const Blog = () => {
     return (
         <BLogContainer>
             <BLogTitle>Some of my Blogs:</BLogTitle>
             <BLogItemWrapper>
-                <BlogItem/>
+                
             </BLogItemWrapper>
         </BLogContainer>
     )
