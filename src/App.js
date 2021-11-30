@@ -7,6 +7,7 @@ import Talk from "./components/talk/Talk";
 import Tool from "./components/tool/Tool"
 import Voluntary from "./components/voluntary/Voluntary";
 import Work from "./components/work/Work";
+import {mobile} from "./responsive"
 
 function App() {
   return (
@@ -37,6 +38,8 @@ height: 100vh;
 width: 50%;
 margin: auto;
 padding: 0 5px;
+justify-content: center;
+${mobile({ width:"80%" })}
 `;
 
 export default App;

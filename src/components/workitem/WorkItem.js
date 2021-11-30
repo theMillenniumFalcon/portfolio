@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from "styled-components"
+import {mobile} from "../../responsive"
 
 const WorkItem = () => {
     return (
@@ -40,6 +41,7 @@ font-size: 15px;
 font-weight: 400;
 margin-left: 15px;
 margin-bottom: 5px;
+${mobile({ fontSize:"17px" })}
 span {
     cursor: pointer;
 }
@@ -51,6 +53,7 @@ font-size: 15px;
 font-weight: 400;
 padding-left: 15px;
 margin-bottom: 5px;
+${mobile({ fontSize:"17px" })}
 `;
 
 const WorkResponsibilities = styled.div`
@@ -61,6 +64,7 @@ font-size: 15px;
 font-weight: 400;
 padding-left: 15px;
 margin-bottom: 5px;
+${mobile({ fontSize:"17px" })}
 span {
     margin-bottom: 3px;
 }

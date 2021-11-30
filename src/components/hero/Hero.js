@@ -5,6 +5,7 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import RedditIcon from '@material-ui/icons/Reddit';
+import {mobile} from "../../responsive"
 
 const Hero = () => {
     return (
@@ -52,6 +53,7 @@ font-size: 17px;
 font-weight: 400;
 line-height: 1.15;
 margin-top: 10px;
+${mobile({ fontSize:"19px" })}
 `;
 
 const HeroSocials = styled.div`

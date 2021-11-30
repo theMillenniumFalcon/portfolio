@@ -26,7 +26,7 @@ font-weight: 400;
 
 const ToolItemWrapper = styled.div`
 margin-top: 25px;
-width: 80%;
+width: 90%;
 margin-right: auto;
 margin-left: auto;
 `;

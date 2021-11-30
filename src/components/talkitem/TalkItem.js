@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from "styled-components"
+import {mobile} from "../../responsive"
 
 const TalkItem = () => {
     return (
@@ -45,6 +46,7 @@ display: grid;
 grid-gap: 25px;
 gap: 15px;
 grid-template-columns: repeat(2, minmax(0, 1fr));
+${mobile({ gridTemplateColumns:"repeat(1, minmax(0, 1fr))" })}
 `;
 
 const Talk = styled.div`

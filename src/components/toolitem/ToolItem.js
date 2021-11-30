@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from "styled-components"
+import {mobile, tablet} from "../../responsive"
 
 const ToolItem = () => {
     return (
@@ -57,21 +58,28 @@ const ToolItem = () => {
 }
 
 const ToolItemContainer = styled.div`
+margin-top: 25px;
+width: 90%;
+margin-right: auto;
+margin-left: auto;
 display: grid;
 grid-gap: 25px;
-gap: 25px;
-font-size: 17px;
-grid-template-columns: repeat(4, minmax(0, 1fr));
+gap: 15px;
+grid-template-columns: repeat(3, minmax(0, 1fr));
+${mobile({ gridTemplateColumns:"repeat(1, minmax(0, 1fr))" })}
 `;
 
 const Item = styled.div`
+border: 1px solid white;
 display: flex;
 align-items: center;
 justify-content: center;
+margin-right: 50px;
+margin-bottom: 15px;
 img {
     height: 25px;
     width: 25px;
-    margin-right: 5px;
+    margin-right: 10px;
 }
 span {
     font-size: 17px;
