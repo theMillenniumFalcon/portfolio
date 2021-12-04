@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from "styled-components"
 import {mobile} from "../../responsive"
+import {Link} from "react-router-dom"
 
 const WorkItem = () => {
     return (
@@ -8,12 +9,20 @@ const WorkItem = () => {
             <WorkComponent>
                 <WorkPosition>‣ Graphics Designer Intern</WorkPosition>
                 <WorkOrganization>
-                    <span>Yellow fishes</span>
+                <Link to={{ pathname: "https://yellowfishes.com/" }} target="_blank" style={{color: "#ff424d", textDecoration: "none"}}>
+                    <span>Yellow Fishes</span>
+                </Link>
                 </WorkOrganization>
                 <WorkDuration>April 2016 - June 2016</WorkDuration>
                 <WorkResponsibilities>
-                    <span>• Data structures and algorithms</span>
-                    <span>• Data structures and algorithms</span>
+                    <span>
+                        • As a graphics designer intern, my main responsibility was 
+                        assisting the designers in the branding process.
+                    </span>
+                    <span>
+                        • I wwas also responsible developing the assets' prototypes and being in a continuous to-and-fro 
+                        communication with the team during the entire process
+                    </span>
                 </WorkResponsibilities>
             </WorkComponent>
         </WorkItemContainer>
@@ -37,7 +46,7 @@ margin-bottom: 5px;
 
 const WorkOrganization = styled.div`
 color: #ff424d;
-font-size: 15px;
+font-size: 16px;
 font-weight: 400;
 margin-left: 15px;
 margin-bottom: 5px;

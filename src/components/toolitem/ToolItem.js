@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from "styled-components"
-import {mobile, tablet} from "../../responsive"
+import {mobile} from "../../responsive"
 
 const ToolItem = () => {
     return (
@@ -42,8 +42,8 @@ const ToolItem = () => {
                 <span>Docker</span>
             </Item>
             <Item>
-                <img src="assets/techlogo/kubernetes.png" alt=""/>
-                <span>Kubernetes</span>
+                <img src="assets/techlogo/spring.png" alt=""/>
+                <span>Spring</span>
             </Item>
             <Item>
                 <img src="assets/techlogo/linux.png" alt=""/>
@@ -70,7 +70,6 @@ ${mobile({ gridTemplateColumns:"repeat(1, minmax(0, 1fr))" })}
 `;
 
 const Item = styled.div`
-border: 1px solid white;
 display: flex;
 align-items: center;
 justify-content: center;
