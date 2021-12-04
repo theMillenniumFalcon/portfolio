@@ -8,10 +8,13 @@ import Tool from "./components/tool/Tool"
 import Voluntary from "./components/voluntary/Voluntary";
 import Work from "./components/work/Work";
 import {mobile} from "./responsive"
+import { BrowserRouter as Router,Switch } from "react-router-dom";
 
 function App() {
   return (
-    <AppContainer>
+    <Router>
+      <Switch>
+      <AppContainer>
       <AppWrapper>
         <Hero/>
         <Skill/>
@@ -23,6 +26,10 @@ function App() {
         <Talk/>
       </AppWrapper>
     </AppContainer>
+      </Switch>
+    
+    </Router>
+    
   );
 }
 
