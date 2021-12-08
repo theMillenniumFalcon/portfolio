@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from "styled-components"
-import {mobile} from "../../responsive"
+import {responsive1, responsive2} from "../../responsive"
 
 const Skill = () => {
     return (
@@ -74,12 +74,12 @@ display: grid;
 grid-gap: 25px;
 gap: 15px;
 grid-template-columns: repeat(2, minmax(0, 1fr));
-${mobile({ gridTemplateColumns:"repeat(1, minmax(0, 1fr))" })}
+${responsive2({ gridTemplateColumns:"repeat(1, minmax(0, 1fr))" })}
 `;
 
 const SkillItem = styled.div`
 font-size: 17px;
-${mobile({ fontSize:"18px" })}
+${responsive2({ fontSize:"18px" })}
 `;
 
 export default Skill

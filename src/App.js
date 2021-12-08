@@ -7,7 +7,7 @@ import Talk from "./components/talk/Talk";
 import Tool from "./components/tool/Tool"
 import Voluntary from "./components/voluntary/Voluntary";
 import Work from "./components/work/Work";
-import {mobile} from "./responsive"
+import {responsive1, responsive2} from "./responsive"
 import { BrowserRouter as Router,Switch } from "react-router-dom";
 
 function App() {
@@ -46,7 +46,8 @@ width: 50%;
 margin: auto;
 padding: 0 5px;
 justify-content: center;
-${mobile({ width:"80%" })}
+${responsive1({ width:"85%" })}
+${responsive2({ width:"80%" })}
 `;
 
 export default App;

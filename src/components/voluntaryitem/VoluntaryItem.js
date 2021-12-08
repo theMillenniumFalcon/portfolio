@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from "styled-components"
-import {mobile} from "../../responsive"
+import {responsive1, responsive2} from "../../responsive"
 import {Link} from "react-router-dom"
 
 const VoluntaryItem = () => {
@@ -62,7 +62,7 @@ font-size: 16px;
 font-weight: 400;
 margin-left: 15px;
 margin-bottom: 5px;
-${mobile({ fontSize:"17px" })}
+${responsive2({ fontSize:"17px" })}
 span {
     cursor: pointer;
 }
@@ -74,7 +74,7 @@ font-size: 15px;
 font-weight: 400;
 padding-left: 15px;
 margin-bottom: 5px;
-${mobile({ fontSize:"17px" })}
+${responsive2({ fontSize:"17px" })}
 `;
 
 const VoluntaryResponsibilities = styled.div`
@@ -85,7 +85,7 @@ font-size: 15px;
 font-weight: 400;
 padding-left: 15px;
 margin-bottom: 5px;
-${mobile({ fontSize:"17px" })}
+${responsive2({ fontSize:"17px" })}
 span {
     margin-bottom: 3px;
 }

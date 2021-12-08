@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from "styled-components"
-import {mobile} from "../../responsive"
+import {responsive1, responsive2} from "../../responsive"
 
 const ToolItem = () => {
     return (
@@ -66,7 +66,7 @@ display: grid;
 grid-gap: 25px;
 gap: 15px;
 grid-template-columns: repeat(3, minmax(0, 1fr));
-${mobile({ gridTemplateColumns:"repeat(1, minmax(0, 1fr))" })}
+${responsive2({ gridTemplateColumns:"repeat(1, minmax(0, 1fr))" })}
 `;
 
 const Item = styled.div`
