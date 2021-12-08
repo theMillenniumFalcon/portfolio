@@ -13,7 +13,7 @@ const Hero = () => {
             <HeroName>Nishank Priydarshi</HeroName>
             <HeroDesc>
                 Hello! My name is Nishank. I'm a computer science student from 🇮🇳.
-                I am a keen learner📕 and deeply passionate about Software development💻 and innovations.
+                I am a keen learner📕 and deeply passionate about Software development💻.
             </HeroDesc>
             <HeroSocials>
                 <SocialIcon>
