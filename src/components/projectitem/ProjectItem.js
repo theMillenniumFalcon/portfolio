@@ -1,41 +1,43 @@
 import React from 'react'
 import styled from "styled-components"
-import {responsive1, responsive2} from "../../responsive"
+import {responsive2} from "../../responsive"
+import {Link} from "react-router-dom"
 
 const ProjectItem = () => {
     return (
         <ProjectItemContainer>
             <ProjectComponent>
-                <ProjectTitle>‣ I am Remarkable Facilitator</ProjectTitle>
+                <ProjectTitle>‣ Shoe store web application</ProjectTitle>
                 <ProjectDesc>
                     <span>• Data structures and algorithms</span>
                     <span>• Data structures and algorithms</span>
                 </ProjectDesc>
                 <ProjectShowcase>
-                    <span>Showcase</span>
-                    <span>Code</span>
+                    <Link to={{ pathname: "https://iamremarkable.withgoogle.com/" }} target="_blank" style={{color: "#ff424d", textDecoration: "none"}}>
+                        <span>Showcase</span>
+                    </Link>
+                    <Link to={{ pathname: "https://github.com/theMillenniumFalcon/shoes_E-commerce_webapp" }} target="_blank" style={{color: "#ff424d", textDecoration: "none"}}>
+                        <span>Code</span>
+                    </Link>
                 </ProjectShowcase>
             </ProjectComponent>
             <ProjectComponent>
-                <ProjectTitle>‣ I am Remarkable Facilitator</ProjectTitle>
+                <ProjectTitle>‣ A group chat app</ProjectTitle>
                 <ProjectDesc>
-                    <span>• Data structures and algorithms</span>
-                    <span>• Data structures and algorithms</span>
+                    <span>
+                        • I made this project during a hackathon, using React on the frontend and node on the backend.
+                    </span>
+                    <span>
+                        • The chat feature was made using getStream.io pre-build components.
+                    </span>
                 </ProjectDesc>
                 <ProjectShowcase>
-                    <span>Showcase</span>
-                    <span>Code</span>
-                </ProjectShowcase>
-            </ProjectComponent>
-            <ProjectComponent>
-                <ProjectTitle>‣ I am Remarkable Facilitator</ProjectTitle>
-                <ProjectDesc>
-                    <span>• Data structures and algorithms</span>
-                    <span>• Data structures and algorithms</span>
-                </ProjectDesc>
-                <ProjectShowcase>
-                    <span>Showcase</span>
-                    <span>Code</span>
+                    <Link to={{ pathname: "https://cloud-native-hacks-hangout.netlify.app/" }} target="_blank" style={{color: "#ff424d", textDecoration: "none"}}>
+                        <span>Showcase</span>
+                    </Link>
+                    <Link to={{ pathname: "https://github.com/theMillenniumFalcon/cloud-native-hack-submission" }} target="_blank" style={{color: "#ff424d", textDecoration: "none"}}>
+                        <span>Code</span>
+                    </Link>
                 </ProjectShowcase>
             </ProjectComponent>
         </ProjectItemContainer>

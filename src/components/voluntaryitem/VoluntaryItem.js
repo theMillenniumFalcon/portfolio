@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from "styled-components"
-import {responsive1, responsive2} from "../../responsive"
+import {responsive2} from "../../responsive"
 import {Link} from "react-router-dom"
 
 const VoluntaryItem = () => {
@@ -13,7 +13,7 @@ const VoluntaryItem = () => {
                     <span>I am Remarkable</span>
                 </Link>
                 </VoluntaryOrganization>
-                <VoluntaryDuration>December 2021 - Present</VoluntaryDuration>
+                <VoluntaryDuration>January 2022 - Present</VoluntaryDuration>
                 <VoluntaryResponsibilities>
                     <span>
                         • As a facilitator my role involves hosting workshops and being an ambassador for #IamRemarkable within my personal and professional networks.

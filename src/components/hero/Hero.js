@@ -4,7 +4,7 @@ import MailOutlineIcon from '@material-ui/icons/MailOutline';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import TwitterIcon from '@material-ui/icons/Twitter';
-import {responsive1, responsive2} from "../../responsive"
+import {responsive2} from "../../responsive"
 import {Link} from "react-router-dom"
 
 const Hero = () => {
@@ -32,7 +32,7 @@ const Hero = () => {
                     </Link>
                 </SocialIcon>
                 <SocialIcon>
-                    <Link to={{ pathname: "https://twitter.com/nishankpr" }} target="_blank" style={{color: "white"}}>
+                    <Link to={{ pathname: "https://twitter.com/nishankstwt" }} target="_blank" style={{color: "white"}}>
                         <TwitterIcon/>
                     </Link>
                 </SocialIcon>

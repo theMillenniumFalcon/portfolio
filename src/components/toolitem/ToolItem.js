@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from "styled-components"
-import {responsive1, responsive2} from "../../responsive"
+import {responsive2} from "../../responsive"
 
 const ToolItem = () => {
     return (
@@ -13,10 +13,10 @@ const ToolItem = () => {
                 <img src="assets/techlogo/javascript.png" alt=""/>
                 <span>JavaScript</span>
             </Item>
-            <Item>
+            {/* <Item>
                 <img src="assets/techlogo/python.png" alt=""/>
                 <span>Python</span>
-            </Item>
+            </Item> */}
             <Item>
                 <img src="assets/techlogo/react.png" alt=""/>
                 <span>React</span>
@@ -33,18 +33,18 @@ const ToolItem = () => {
                 <img src="assets/techlogo/mongodb.png" alt=""/>
                 <span>MongoDB</span>
             </Item>
-            <Item>
+            {/* <Item>
                 <img src="assets/techlogo/postgresql.png" alt=""/>
                 <span>Postgresql</span>
-            </Item>
+            </Item> */}
             <Item>
                 <img src="assets/techlogo/docker.png" alt=""/>
                 <span>Docker</span>
             </Item>
-            <Item>
+            {/* <Item>
                 <img src="assets/techlogo/spring.png" alt=""/>
                 <span>Spring</span>
-            </Item>
+            </Item> */}
             <Item>
                 <img src="assets/techlogo/linux.png" alt=""/>
                 <span>Linux</span>
@@ -75,6 +75,7 @@ align-items: center;
 justify-content: center;
 margin-right: 50px;
 margin-bottom: 15px;
+cursor: default;
 img {
     height: 25px;
     width: 25px;

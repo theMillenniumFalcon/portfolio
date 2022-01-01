@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from "styled-components"
-import {responsive1, responsive2} from "../../responsive"
+import {responsive2} from "../../responsive"
 
 const Skill = () => {
     return (
@@ -16,7 +16,7 @@ const Skill = () => {
                 <SkillItem>
                     • Web security
                 </SkillItem>
-                <SkillItem>
+                {/* <SkillItem>
                     • Database management systems
                 </SkillItem>
                 <SkillItem>
@@ -36,7 +36,7 @@ const Skill = () => {
                 </SkillItem>
                 <SkillItem>
                     • Linux machines
-                </SkillItem>
+                </SkillItem> */}
                 {/* <SkillItem>
                     • Neural networks
                 </SkillItem>

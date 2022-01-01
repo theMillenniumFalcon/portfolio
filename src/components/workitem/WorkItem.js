@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from "styled-components"
-import {responsive1, responsive2} from "../../responsive"
+import {responsive2} from "../../responsive"
 import {Link} from "react-router-dom"
 
 const WorkItem = () => {

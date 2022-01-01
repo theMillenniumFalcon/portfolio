@@ -1,18 +1,21 @@
 import React from 'react'
 import styled from "styled-components"
-import {responsive1, responsive2} from "../../responsive"
+import {responsive2} from "../../responsive"
+import {Link} from "react-router-dom"
 
 const BlogItem = () => {
     return (
         <BlogItemContainer>
             <Blog>
                 <BlogImg>
-                    <img src="assets/blogcovers/1.jpg" alt="" />
+                    <Link to={{ pathname: "https://iamremarkable.withgoogle.com/" }} target="_blank" style={{color: "#ff424d", textDecoration: "none"}}>
+                        <img src="assets/blogcovers/1.jpg" alt="" />
+                    </Link>
                 </BlogImg>
-                <BlogTime>December 2021</BlogTime>
+                <BlogTime>January 2022</BlogTime>
                 <BlogName>Getting started with freelancing</BlogName>
             </Blog>
-            <Blog>
+            {/* <Blog>
                 <BlogImg>
                     <img src="assets/blogcovers/1.jpg" alt="" />
                 </BlogImg>
@@ -32,7 +35,7 @@ const BlogItem = () => {
                 </BlogImg>
                 <BlogTime>December 2021</BlogTime>
                 <BlogName>Getting started with freelancing</BlogName>
-            </Blog>
+            </Blog> */}
         </BlogItemContainer>
     )
 }
