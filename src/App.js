@@ -23,7 +23,7 @@ function App() {
         <Voluntary/>
         <Project/>
         <Blog/>
-        <Talk/>
+        {/* <Talk/> */}
       </AppWrapper>
     </AppContainer>
       </Switch>
