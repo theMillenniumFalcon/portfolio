@@ -9,7 +9,7 @@ const BlogItem = () => {
             <Blog>
                 <BlogImg>
                     <Link to={{ pathname: "https://iamremarkable.withgoogle.com/" }} target="_blank" style={{color: "#ff424d", textDecoration: "none"}}>
-                        <img src="assets/blogcovers/1.jpg" alt="" />
+                        <img src="assets/blogcovers/1.png" alt="" />
                     </Link>
                 </BlogImg>
                 <BlogTime>January 2022</BlogTime>
@@ -59,7 +59,7 @@ margin-bottom: 15px;
 const BlogImg = styled.div`
 img{
     height: 180px;
-    width: 300px;
+    width: 320px;
     object-fit: cover;
 }
 `;
