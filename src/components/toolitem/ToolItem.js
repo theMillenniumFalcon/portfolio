@@ -13,21 +13,29 @@ const ToolItem = () => {
                 <img src="assets/techlogo/javascript.png" alt=""/>
                 <span>JavaScript</span>
             </Item>
-            {/* <Item>
-                <img src="assets/techlogo/python.png" alt=""/>
-                <span>Python</span>
-            </Item> */}
+            <Item>
+                <img src="assets/techlogo/typescript.png" alt=""/>
+                <span>TypeScript</span>
+            </Item>
             <Item>
                 <img src="assets/techlogo/react.png" alt=""/>
                 <span>React</span>
             </Item>
             <Item>
-                <img src="assets/techlogo/graphql.png" alt=""/>
-                <span>Graphql</span>
+                <img src="assets/techlogo/next.png" alt=""/>
+                <span>Nextjs</span>
             </Item>
             <Item>
-                <img src="assets/techlogo/typescript.png" alt=""/>
-                <span>TypeScript</span>
+                <img src="assets/techlogo/redux.png" alt=""/>
+                <span>Redux</span>
+            </Item>
+            <Item>
+                <img src="assets/techlogo/tailwind.png" alt=""/>
+                <span>Tailwind</span>
+            </Item>
+            <Item>
+                <img src="assets/techlogo/graphql.png" alt=""/>
+                <span>Graphql</span>
             </Item>
             <Item>
                 <img src="assets/techlogo/mongodb.png" alt=""/>

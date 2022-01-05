@@ -22,6 +22,26 @@ const ProjectItem = () => {
                 </ProjectShowcase>
             </ProjectComponent>
             <ProjectComponent>
+                <ProjectTitle>‣ Blog App</ProjectTitle>
+                <ProjectDesc>
+                    <span>
+                        • This frontend of the project was build using nextjs using javascript as the programming language.
+                    </span>
+                    <span>
+                        • GraphQl was used the query language for fullfilling the queries while the the addition and deletion is done 
+                        using graphCMS.
+                    </span>
+                </ProjectDesc>
+                <ProjectShowcase>
+                    <Link to={{ pathname: "https://next-serverless-bpc5r08e9-themillenniumfalcon.vercel.app/" }} target="_blank" style={{color: "#ff424d", textDecoration: "none"}}>
+                        <span>Showcase</span>
+                    </Link>
+                    <Link to={{ pathname: "https://github.com/theMillenniumFalcon/graphql-next" }} target="_blank" style={{color: "#ff424d", textDecoration: "none"}}>
+                        <span>Code</span>
+                    </Link>
+                </ProjectShowcase>
+            </ProjectComponent>
+            <ProjectComponent>
                 <ProjectTitle>‣ A group chat app</ProjectTitle>
                 <ProjectDesc>
                     <span>
