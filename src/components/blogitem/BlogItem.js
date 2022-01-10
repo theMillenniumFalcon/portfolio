@@ -15,27 +15,27 @@ const BlogItem = () => {
                 <BlogTime>January 2022</BlogTime>
                 <BlogName>Getting started with freelancing</BlogName>
             </Blog>
-            {/* <Blog>
+            <Blog>
                 <BlogImg>
-                    <img src="assets/blogcovers/1.jpg" alt="" />
+                    <img src="assets/blogcovers/1.png" alt="" />
                 </BlogImg>
                 <BlogTime>December 2021</BlogTime>
                 <BlogName>Getting started with freelancing</BlogName>
             </Blog>
             <Blog>
                 <BlogImg>
-                    <img src="assets/blogcovers/1.jpg" alt="" />
+                    <img src="assets/blogcovers/1.png" alt="" />
                 </BlogImg>
                 <BlogTime>December 2021</BlogTime>
                 <BlogName>Getting started with freelancing</BlogName>
             </Blog>
             <Blog>
                 <BlogImg>
-                    <img src="assets/blogcovers/1.jpg" alt="" />
+                    <img src="assets/blogcovers/1.png" alt="" />
                 </BlogImg>
                 <BlogTime>December 2021</BlogTime>
                 <BlogName>Getting started with freelancing</BlogName>
-            </Blog> */}
+            </Blog>
         </BlogItemContainer>
     )
 }
@@ -58,9 +58,10 @@ margin-bottom: 15px;
 
 const BlogImg = styled.div`
 img{
-    height: 180px;
     width: 320px;
+    height: 180px;
     object-fit: cover;
+    ${responsive2({ width: "272px", height: "153px", objectFit: "cover" })}
 }
 `;
 

@@ -74,7 +74,7 @@ display: grid;
 grid-gap: 25px;
 gap: 15px;
 grid-template-columns: repeat(3, minmax(0, 1fr));
-${responsive2({ gridTemplateColumns:"repeat(1, minmax(0, 1fr))" })}
+${responsive2({ gridTemplateColumns:"repeat(2, minmax(0, 1fr))" })}
 `;
 
 const Item = styled.div`

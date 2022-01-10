@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from "styled-components"
-import {responsive2} from "../../responsive"
 import {Link} from "react-router-dom"
 
 const ProjectItem = () => {
@@ -60,6 +59,25 @@ const ProjectItem = () => {
                     </Link>
                 </ProjectShowcase>
             </ProjectComponent>
+            <ProjectComponent>
+                <ProjectTitle>‣ Space Jumper</ProjectTitle>
+                <ProjectDesc>
+                    <span>
+                        • I made this project during a hackathon, using React on the frontend and node on the backend.
+                    </span>
+                    <span>
+                        • The chat feature was made using getStream.io pre-build components.
+                    </span>
+                </ProjectDesc>
+                <ProjectShowcase>
+                    <Link to={{ pathname: "https://cloud-native-hacks-hangout.netlify.app/" }} target="_blank" style={{color: "#ff424d", textDecoration: "none"}}>
+                        <span>Showcase</span>
+                    </Link>
+                    <Link to={{ pathname: "https://github.com/theMillenniumFalcon/space-jumper" }} target="_blank" style={{color: "#ff424d", textDecoration: "none"}}>
+                        <span>Code</span>
+                    </Link>
+                </ProjectShowcase>
+            </ProjectComponent>
         </ProjectItemContainer>
     )
 }
@@ -85,7 +103,6 @@ font-size: 15px;
 font-weight: 400;
 margin-left: 15px;
 margin-bottom: 5px;
-${responsive2({ fontSize:"17px" })}
 span {
     cursor: pointer;
     margin-right: 30px;
@@ -100,7 +117,6 @@ font-size: 15px;
 font-weight: 400;
 padding-left: 15px;
 margin-bottom: 5px;
-${responsive2({ fontSize:"17px" })}
 span {
     margin-bottom: 3px;
 }

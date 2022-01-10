@@ -17,6 +17,7 @@ const BlogContainer = styled.div`
 margin-top: 40px;
 font-family: 'Source Code Pro', monospace;
 color: white;
+border: 1px solid white;
 `;
 
 const BlogTitle = styled.div`

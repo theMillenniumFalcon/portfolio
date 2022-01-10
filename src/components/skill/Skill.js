@@ -79,7 +79,6 @@ ${responsive2({ gridTemplateColumns:"repeat(1, minmax(0, 1fr))" })}
 
 const SkillItem = styled.div`
 font-size: 17px;
-${responsive2({ fontSize:"18px" })}
 `;
 
 export default Skill

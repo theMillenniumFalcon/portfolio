@@ -4,7 +4,6 @@ import MailOutlineIcon from '@material-ui/icons/MailOutline';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import TwitterIcon from '@material-ui/icons/Twitter';
-import {responsive2} from "../../responsive"
 import {Link} from "react-router-dom"
 
 const Hero = () => {
@@ -59,7 +58,6 @@ font-size: 17px;
 font-weight: 400;
 line-height: 1.15;
 margin-top: 10px;
-${responsive2({ fontSize:"19px" })}
 `;
 
 const HeroSocials = styled.div`
