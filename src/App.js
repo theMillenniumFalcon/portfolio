@@ -3,6 +3,7 @@ import Blog from "./components/blog/Blog";
 import Hero from "./components/hero/Hero"
 import Project from "./components/project/Project";
 import Skill from "./components/skill/Skill"
+// eslint-disable-next-line
 import Talk from "./components/talk/Talk";
 import Tool from "./components/tool/Tool"
 import Voluntary from "./components/voluntary/Voluntary";
