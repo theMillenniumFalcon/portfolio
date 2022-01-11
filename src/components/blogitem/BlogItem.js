@@ -15,7 +15,7 @@ const BlogItem = () => {
                 <BlogTime>January 2022</BlogTime>
                 <BlogName>Getting started with freelancing</BlogName>
             </Blog>
-            <Blog>
+            {/* <Blog>
                 <BlogImg>
                     <img src="assets/blogcovers/1.png" alt="" />
                 </BlogImg>
@@ -35,7 +35,7 @@ const BlogItem = () => {
                 </BlogImg>
                 <BlogTime>December 2021</BlogTime>
                 <BlogName>Getting started with freelancing</BlogName>
-            </Blog>
+            </Blog> */}
         </BlogItemContainer>
     )
 }
