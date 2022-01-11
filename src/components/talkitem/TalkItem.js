@@ -1,18 +1,18 @@
 import React from 'react'
 import styled from "styled-components"
-import {responsive2} from "../../responsive"
+import {responsive2, responsive3} from "../../responsive"
 
 const TalkItem = () => {
     return (
         <TalkItemContainer>
             <Talk>
                 <TalkImg>
-                <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" />
+                <iframe title="Open Source" src="https://www.youtube.com/embed/tgbNymZ7vqY" />
                 </TalkImg>
                 <TalkTime>December 2021</TalkTime>
                 <TalkName>Getting started with freelancing</TalkName>
             </Talk>
-            <Talk>
+            {/* <Talk>
                 <TalkImg>
                 <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" />
                 </TalkImg>
@@ -32,7 +32,7 @@ const TalkItem = () => {
                 </TalkImg>
                 <TalkTime>December 2021</TalkTime>
                 <TalkName>Getting started with freelancing</TalkName>
-            </Talk>
+            </Talk> */}
         </TalkItemContainer>
     )
 }
@@ -58,6 +58,8 @@ iframe{
     height: 180px;
     width: 300px;
     object-fit: cover;
+    ${responsive2({ width: "272px", height: "153px", objectFit: "cover" })}
+    ${responsive3({ width: "240px", height: "135px", objectFit: "cover" })}
 }
 `;
 

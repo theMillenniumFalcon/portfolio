@@ -47,7 +47,8 @@ const ProjectItem = () => {
                 <ProjectTitle>‣ Blog App</ProjectTitle>
                 <ProjectDesc>
                     <span>
-                        • The frontend of the project was build with nextjs using Javascript as the programming language.
+                        • The frontend of the project was build with nextjs using Javascript as the programming language., the styling 
+                        UI was done using TailwindCSS.
                     </span>
                     <span>
                         • GraphQL was used the query language for fullfilling the queries while the the addition and deletion is done 
@@ -86,7 +87,7 @@ const ProjectItem = () => {
                 <ProjectTitle>‣ Space Jumper</ProjectTitle>
                 <ProjectDesc>
                     <span>
-                        • This project was created with the HTML canvas element using Javascript as the programming language.
+                        • This is a browser game which was created with the HTML canvas element using Javascript as the programming language.
                     </span>
                     <span>
                         • The stripe animation and other assets were taken from the internet.
