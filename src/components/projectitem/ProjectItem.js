@@ -6,10 +6,33 @@ const ProjectItem = () => {
     return (
         <ProjectItemContainer>
             <ProjectComponent>
-                <ProjectTitle>‣ Shoe store web application</ProjectTitle>
+                <ProjectTitle>‣ MyReddit</ProjectTitle>
                 <ProjectDesc>
-                    <span>• Data structures and algorithms</span>
-                    <span>• Data structures and algorithms</span>
+                    <span>
+                        • This is a sort of a reddit clone made with React and Next.js on the frontend using TypeScript, Nodejs on the backend, and
+                        GraphQL as the query language.
+                    </span>
+                    <span>• Database used in PostgreSQL, Redis as a cache store, and Apollo platform to transfer data between 
+                        the server and the UI.
+                    </span>
+                </ProjectDesc>
+                <ProjectShowcase>
+                    <Link to={{ pathname: "https://iamremarkable.withgoogle.com/" }} target="_blank" style={{color: "#ff424d", textDecoration: "none"}}>
+                        <span>Showcase</span>
+                    </Link>
+                    <Link to={{ pathname: "https://github.com/theMillenniumFalcon/reddit-clone" }} target="_blank" style={{color: "#ff424d", textDecoration: "none"}}>
+                        <span>Code</span>
+                    </Link>
+                </ProjectShowcase>
+            </ProjectComponent>
+            <ProjectComponent>
+                <ProjectTitle>‣ Shoes4You</ProjectTitle>
+                <ProjectDesc>
+                    <span>
+                        • This is a E-commerce web application having React as the frontend UI library, Node.js using express on the backend, 
+                        the database used is mongoDB.
+                    </span>
+                    <span>• Redux was used for managing and centralizing the application state and for the payment support, Stripe was used.</span>
                 </ProjectDesc>
                 <ProjectShowcase>
                     <Link to={{ pathname: "https://iamremarkable.withgoogle.com/" }} target="_blank" style={{color: "#ff424d", textDecoration: "none"}}>
@@ -24,10 +47,10 @@ const ProjectItem = () => {
                 <ProjectTitle>‣ Blog App</ProjectTitle>
                 <ProjectDesc>
                     <span>
-                        • This frontend of the project was build using nextjs using javascript as the programming language.
+                        • The frontend of the project was build with nextjs using Javascript as the programming language.
                     </span>
                     <span>
-                        • GraphQl was used the query language for fullfilling the queries while the the addition and deletion is done 
+                        • GraphQL was used the query language for fullfilling the queries while the the addition and deletion is done 
                         using graphCMS.
                     </span>
                 </ProjectDesc>
@@ -44,7 +67,7 @@ const ProjectItem = () => {
                 <ProjectTitle>‣ A group chat app</ProjectTitle>
                 <ProjectDesc>
                     <span>
-                        • I made this project during a hackathon, using React on the frontend and node on the backend.
+                        • This project was made during a hackathon, using React on the frontend and Node.js on the backend.
                     </span>
                     <span>
                         • The chat feature was made using getStream.io pre-build components.
@@ -63,10 +86,10 @@ const ProjectItem = () => {
                 <ProjectTitle>‣ Space Jumper</ProjectTitle>
                 <ProjectDesc>
                     <span>
-                        • I made this project during a hackathon, using React on the frontend and node on the backend.
+                        • This project was created with the HTML canvas element using Javascript as the programming language.
                     </span>
                     <span>
-                        • The chat feature was made using getStream.io pre-build components.
+                        • The stripe animation and other assets were taken from the internet.
                     </span>
                 </ProjectDesc>
                 <ProjectShowcase>
@@ -118,7 +141,7 @@ font-weight: 400;
 padding-left: 15px;
 margin-bottom: 5px;
 span {
-    margin-bottom: 3px;
+    margin-bottom: 5px;
 }
 `;
 

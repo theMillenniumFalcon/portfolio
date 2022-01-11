@@ -71,7 +71,7 @@ font-weight: 400;
 padding-left: 15px;
 margin-bottom: 5px;
 span {
-    margin-bottom: 3px;
+    margin-bottom: 5px;
 }
 `;
 

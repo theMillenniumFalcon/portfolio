@@ -74,15 +74,14 @@ display: grid;
 grid-gap: 25px;
 gap: 15px;
 grid-template-columns: repeat(3, minmax(0, 1fr));
-${responsive2({ gridTemplateColumns:"repeat(2, minmax(0, 1fr))" })}
+${responsive2({ gridTemplateColumns:"repeat(1, minmax(0, 1fr))" })}
 `;
 
 const Item = styled.div`
 display: flex;
 align-items: center;
 justify-content: center;
-margin-right: 50px;
-margin-bottom: 15px;
+margin-bottom: 5px;
 cursor: default;
 img {
     height: 25px;
@@ -90,9 +89,10 @@ img {
     margin-right: 10px;
 }
 span {
-    font-size: 17px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 1.15;
+    ${responsive2({ fontSize:"16px" })}
 }
 `;
 

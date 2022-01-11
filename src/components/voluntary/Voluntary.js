@@ -5,7 +5,7 @@ import VoluntaryItem from '../voluntaryitem/VoluntaryItem';
 const Voluntary = () => {
     return (
         <VoluntaryContainer>
-            <VoluntaryTitle>Voluntary Experience:</VoluntaryTitle>
+            <VoluntaryTitle>Volunteering:</VoluntaryTitle>
             <VoluntaryItemWrapper>
                 <VoluntaryItem/>
             </VoluntaryItemWrapper>

@@ -5,7 +5,7 @@ import WorkItem from '../workitem/WorkItem';
 const Work = () => {
     return (
         <WorkContainer>
-            <WorkTitle>Past work Experience:</WorkTitle>
+            <WorkTitle>Experience:</WorkTitle>
             <WorkItemWrapper>
                 <WorkItem/>
             </WorkItemWrapper>

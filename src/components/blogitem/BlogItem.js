@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from "styled-components"
-import {responsive2} from "../../responsive"
+import {responsive2, responsive3} from "../../responsive"
 import {Link} from "react-router-dom"
 
 const BlogItem = () => {
@@ -62,6 +62,7 @@ img{
     height: 180px;
     object-fit: cover;
     ${responsive2({ width: "272px", height: "153px", objectFit: "cover" })}
+    ${responsive3({ width: "240px", height: "135px", objectFit: "cover" })}
 }
 `;
 

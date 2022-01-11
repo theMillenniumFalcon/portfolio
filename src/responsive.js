@@ -15,3 +15,11 @@ export const responsive2 = (props) => {
     }
   `;
 }
+
+export const responsive3 = (props) => {
+  return css`
+    @media only screen and (width: 320px) {
+      ${props}
+    }
+  `;
+}
