@@ -5,7 +5,7 @@ import Project from "./components/project/Project";
 import Skill from "./components/skill/Skill"
 // eslint-disable-next-line
 import Talk from "./components/talk/Talk";
-import Tool from "./components/tool/Tool"
+import Tech from "./components/tech/Tech"
 import Voluntary from "./components/voluntary/Voluntary";
 import Work from "./components/work/Work";
 import {responsive1, responsive2} from "./responsive"
@@ -19,7 +19,7 @@ function App() {
       <AppWrapper>
         <Hero/>
         <Skill/>
-        <Tool/>
+        <Tech/>
         <Work/>
         <Voluntary/>
         <Project/>

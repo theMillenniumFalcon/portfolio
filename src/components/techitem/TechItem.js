@@ -2,9 +2,9 @@ import React from 'react'
 import styled from "styled-components"
 import {responsive2} from "../../responsive"
 
-const ToolItem = () => {
+const TechItem = () => {
     return (
-        <ToolItemContainer>
+        <TechItemContainer>
             <Item>
                 <img src="assets/techlogo/java.png" alt=""/>
                 <span>Java</span>
@@ -61,11 +61,11 @@ const ToolItem = () => {
                 <img src="assets/techlogo/git.png" alt=""/>
                 <span>Git</span>
             </Item>
-        </ToolItemContainer>
+        </TechItemContainer>
     )
 }
 
-const ToolItemContainer = styled.div`
+const TechItemContainer = styled.div`
 margin-top: 25px;
 width: 90%;
 margin-right: auto;
@@ -97,4 +97,4 @@ span {
 `;
 
 
-export default ToolItem
+export default TechItem

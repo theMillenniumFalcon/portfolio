@@ -5,7 +5,7 @@ import {responsive2} from "../../responsive"
 const Skill = () => {
     return (
         <SkillContainer>
-            <SkillTitle>My skills:</SkillTitle>
+            <SkillTitle>Skills:</SkillTitle>
             <SkillItemWrapper>
                 <SkillItem>
                     • Data structures and algorithms

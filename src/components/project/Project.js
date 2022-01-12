@@ -5,7 +5,7 @@ import ProjectItem from '../projectitem/ProjectItem';
 const Project = () => {
     return (
         <ProjectContainer>
-            <ProjectTitle>Projects I have worked on:</ProjectTitle>
+            <ProjectTitle>Projects:</ProjectTitle>
             <ProjectItemWrapper>
                 <ProjectItem/>
             </ProjectItemWrapper>

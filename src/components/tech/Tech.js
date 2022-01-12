@@ -1,13 +1,13 @@
 import React from 'react'
 import styled from "styled-components"
-import ToolItem from '../toolitem/ToolItem'
+import TechItem from '../techitem/TechItem'
 
-const Tool = () => {
+const Tech = () => {
     return (
         <ToolContainer>
-            <ToolTitle>Tools I am familiar with:</ToolTitle>
+            <ToolTitle>Tech Stack:</ToolTitle>
             <ToolItemWrapper>
-                <ToolItem/>
+                <TechItem/>
             </ToolItemWrapper>
         </ToolContainer>
     )
@@ -31,4 +31,4 @@ margin-right: auto;
 margin-left: auto;
 `;
 
-export default Tool
+export default Tech
