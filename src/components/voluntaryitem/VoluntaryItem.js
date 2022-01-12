@@ -6,7 +6,7 @@ const VoluntaryItem = () => {
     return (
         <VoluntaryItemContainer>
             <VoluntaryComponent>
-                <VoluntaryPosition>‣ I am Remarkable Facilitator</VoluntaryPosition>
+                <VoluntaryPosition>◦ I am Remarkable Facilitator</VoluntaryPosition>
                 <VoluntaryOrganization>
                 <Link to={{ pathname: "https://iamremarkable.withgoogle.com/" }} target="_blank" style={{color: "#ff424d", textDecoration: "none"}}>
                     <span>I am Remarkable</span>
@@ -20,7 +20,7 @@ const VoluntaryItem = () => {
                 </VoluntaryResponsibilities>
             </VoluntaryComponent>
             <VoluntaryComponent>
-                <VoluntaryPosition>‣ Event Coordinator</VoluntaryPosition>
+                <VoluntaryPosition>◦ Event Coordinator</VoluntaryPosition>
                 <VoluntaryOrganization>
                 <Link to={{ pathname: "https://spectraverseincusivity.wordpress.com/" }} target="_blank" style={{color: "#ff424d", textDecoration: "none"}}>
                     <span>Spectraverse</span>

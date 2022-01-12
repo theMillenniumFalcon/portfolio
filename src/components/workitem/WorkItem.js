@@ -6,7 +6,7 @@ const WorkItem = () => {
     return (
         <WorkItemContainer>
             <WorkComponent>
-                <WorkPosition>‣ Graphics Designer Intern</WorkPosition>
+                <WorkPosition>◦ Graphics Designer Intern</WorkPosition>
                 <WorkOrganization>
                 <Link to={{ pathname: "https://yellowfishes.com/" }} target="_blank" style={{color: "#ff424d", textDecoration: "none"}}>
                     <span>Yellow Fishes</span>

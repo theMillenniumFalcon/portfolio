@@ -6,7 +6,7 @@ const ProjectItem = () => {
     return (
         <ProjectItemContainer>
             <ProjectComponent>
-                <ProjectTitle>‣ MyReddit</ProjectTitle>
+                <ProjectTitle>◦ MyReddit</ProjectTitle>
                 <ProjectDesc>
                     <span>
                         • This is a sort of a reddit clone made with React and Next.js on the frontend using TypeScript, Nodejs on the backend, and
@@ -26,7 +26,7 @@ const ProjectItem = () => {
                 </ProjectShowcase>
             </ProjectComponent>
             <ProjectComponent>
-                <ProjectTitle>‣ Shoes4You</ProjectTitle>
+                <ProjectTitle>◦ Shoes4You</ProjectTitle>
                 <ProjectDesc>
                     <span>
                         • This is a E-commerce web application having React as the frontend UI library, Node.js using express on the backend, 
@@ -44,7 +44,7 @@ const ProjectItem = () => {
                 </ProjectShowcase>
             </ProjectComponent>
             <ProjectComponent>
-                <ProjectTitle>‣ Blog App</ProjectTitle>
+                <ProjectTitle>◦ Blog App</ProjectTitle>
                 <ProjectDesc>
                     <span>
                         • The frontend of the project was build with nextjs using Javascript as the programming language., the styling 
@@ -65,7 +65,7 @@ const ProjectItem = () => {
                 </ProjectShowcase>
             </ProjectComponent>
             <ProjectComponent>
-                <ProjectTitle>‣ A group chat app</ProjectTitle>
+                <ProjectTitle>◦ A group chat app</ProjectTitle>
                 <ProjectDesc>
                     <span>
                         • This project was made during a hackathon, using React on the frontend and Node.js on the backend.
@@ -84,7 +84,7 @@ const ProjectItem = () => {
                 </ProjectShowcase>
             </ProjectComponent>
             <ProjectComponent>
-                <ProjectTitle>‣ Space Jumper</ProjectTitle>
+                <ProjectTitle>◦ Space Jumper</ProjectTitle>
                 <ProjectDesc>
                     <span>
                         • This is a browser game which was created with the HTML canvas element using Javascript as the programming language.
