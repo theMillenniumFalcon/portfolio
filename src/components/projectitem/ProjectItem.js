@@ -5,6 +5,26 @@ import {Link} from "react-router-dom"
 const ProjectItem = () => {
     return (
         <ProjectItemContainer>
+            {/* <ProjectComponent>
+                <ProjectTitle>◦ Clash</ProjectTitle>
+                <ProjectDesc>
+                    <span>
+                        • This is a system architecture project, a video sharing platform made with React and Next.js 
+                        on the frontend using TypeScript, Nodejs and GraphQL on the backend, and AWS as the cloud provider.
+                    </span>
+                    <span>• Database used in PostgreSQL, Redis as a cache store, and Apollo platform to transfer data between 
+                        the server and the UI.
+                    </span>
+                </ProjectDesc>
+                <ProjectShowcase>
+                    <Link to={{ pathname: "https://iamremarkable.withgoogle.com/" }} target="_blank" style={{color: "#ff424d", textDecoration: "none"}}>
+                        <span>Showcase</span>
+                    </Link>
+                    <Link to={{ pathname: "https://github.com/theMillenniumFalcon/reddit-clone" }} target="_blank" style={{color: "#ff424d", textDecoration: "none"}}>
+                        <span>Code</span>
+                    </Link>
+                </ProjectShowcase>
+            </ProjectComponent> */}
             <ProjectComponent>
                 <ProjectTitle>◦ MyReddit</ProjectTitle>
                 <ProjectDesc>
@@ -65,6 +85,44 @@ const ProjectItem = () => {
                 </ProjectShowcase>
             </ProjectComponent>
             <ProjectComponent>
+                <ProjectTitle>◦ Distributed Spanning Tree Protocol</ProjectTitle>
+                <ProjectDesc>
+                    <span>
+                        • Simulated the topology of network bridges as a distributed system of nodes, communicating via messages, in Java.
+                    </span>
+                    <span>
+                        • Configured the nodes to run the protocol and agree upon a loop-less logical topology to prevent a broadcast storm.
+                    </span>
+                </ProjectDesc>
+                <ProjectShowcase>
+                    <Link to={{ pathname: "https://next-serverless-bpc5r08e9-themillenniumfalcon.vercel.app/" }} target="_blank" style={{color: "#ff424d", textDecoration: "none"}}>
+                        <span>Showcase</span>
+                    </Link>
+                    <Link to={{ pathname: "https://github.com/theMillenniumFalcon/graphql-next" }} target="_blank" style={{color: "#ff424d", textDecoration: "none"}}>
+                        <span>Code</span>
+                    </Link>
+                </ProjectShowcase>
+            </ProjectComponent>
+            <ProjectComponent>
+                <ProjectTitle>◦ Secure Online Exam Portal</ProjectTitle>
+                <ProjectDesc>
+                    <span>
+                        • Developed a platform for optimizing exam conductance and correction using JDBC API with PostgreSQL.
+                    </span>
+                    <span>
+                        • Safeguarded the web-pages against database attacks like SQL Injection and Cross-site scripting (XSS).
+                    </span>
+                </ProjectDesc>
+                <ProjectShowcase>
+                    <Link to={{ pathname: "https://next-serverless-bpc5r08e9-themillenniumfalcon.vercel.app/" }} target="_blank" style={{color: "#ff424d", textDecoration: "none"}}>
+                        <span>Showcase</span>
+                    </Link>
+                    <Link to={{ pathname: "https://github.com/theMillenniumFalcon/graphql-next" }} target="_blank" style={{color: "#ff424d", textDecoration: "none"}}>
+                        <span>Code</span>
+                    </Link>
+                </ProjectShowcase>
+            </ProjectComponent>
+            <ProjectComponent>
                 <ProjectTitle>◦ A group chat app</ProjectTitle>
                 <ProjectDesc>
                     <span>
@@ -84,20 +142,33 @@ const ProjectItem = () => {
                 </ProjectShowcase>
             </ProjectComponent>
             <ProjectComponent>
-                <ProjectTitle>◦ Space Jumper</ProjectTitle>
+                <ProjectTitle>◦ Space Invaders</ProjectTitle>
                 <ProjectDesc>
                     <span>
-                        • This is a browser game which was created with the HTML canvas element using Javascript as the programming language.
+                        • A browser game which was created with the HTML canvas element using Javascript as the programming language.
                     </span>
                     <span>
-                        • The stripe animation and other assets were taken from the internet.
+                        • Implemented garbage collection to improve performance and to provide a better experience.
                     </span>
                 </ProjectDesc>
                 <ProjectShowcase>
-                    <Link to={{ pathname: "https://cloud-native-hacks-hangout.netlify.app/" }} target="_blank" style={{color: "#ff424d", textDecoration: "none"}}>
+                    <Link to={{ pathname: "https://space-invaders-falcon.vercel.app/" }} target="_blank" style={{color: "#ff424d", textDecoration: "none"}}>
                         <span>Showcase</span>
                     </Link>
-                    <Link to={{ pathname: "https://github.com/theMillenniumFalcon/space-jumper" }} target="_blank" style={{color: "#ff424d", textDecoration: "none"}}>
+                    <Link to={{ pathname: "https://github.com/theMillenniumFalcon/space-invaders" }} target="_blank" style={{color: "#ff424d", textDecoration: "none"}}>
+                        <span>Code</span>
+                    </Link>
+                </ProjectShowcase>
+            </ProjectComponent>
+            <ProjectComponent>
+                <ProjectTitle>◦ Invisibility Cloak</ProjectTitle>
+                <ProjectDesc>
+                    <span>
+                        • Created a invisiblity cloak using python and OpenCV. The cloak color for the program to work should be red.
+                    </span>
+                </ProjectDesc>
+                <ProjectShowcase>
+                    <Link to={{ pathname: "https://github.com/theMillenniumFalcon/invisible-cloak" }} target="_blank" style={{color: "#ff424d", textDecoration: "none"}}>
                         <span>Code</span>
                     </Link>
                 </ProjectShowcase>

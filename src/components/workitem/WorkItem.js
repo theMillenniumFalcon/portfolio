@@ -20,7 +20,7 @@ const WorkItem = () => {
                     </span>
                     <span>
                         • I wwas also responsible developing the assets' prototypes and being in a continuous to-and-fro 
-                        communication with the team during the entire process
+                        communication with the team during the entire process.
                     </span>
                 </WorkResponsibilities>
             </WorkComponent>

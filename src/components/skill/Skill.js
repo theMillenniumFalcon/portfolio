@@ -16,7 +16,10 @@ const Skill = () => {
                 <SkillItem>
                     • Web security
                 </SkillItem>
-                {/* <SkillItem>
+                <SkillItem>
+                    • Object oriented programming
+                </SkillItem>
+                <SkillItem>
                     • Database management systems
                 </SkillItem>
                 <SkillItem>
@@ -28,27 +31,6 @@ const Skill = () => {
                 <SkillItem>
                     • Computer graphics
                 </SkillItem>
-                <SkillItem>
-                    • Object oriented programming
-                </SkillItem>
-                <SkillItem>
-                    • Containerization
-                </SkillItem>
-                <SkillItem>
-                    • Linux machines
-                </SkillItem> */}
-                {/* <SkillItem>
-                    • Neural networks
-                </SkillItem>
-                <SkillItem>
-                    • Machine learning
-                </SkillItem>
-                <SkillItem>
-                    • Reinforcement learning
-                </SkillItem>
-                <SkillItem>
-                    • Natural language processing
-                </SkillItem> */}
             </SkillItemWrapper>
         </SkillContainer>
     )
