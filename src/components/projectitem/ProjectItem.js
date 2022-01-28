@@ -67,7 +67,7 @@ const ProjectItem = () => {
                 <ProjectTitle>◦ Blog App</ProjectTitle>
                 <ProjectDesc>
                     <span>
-                        • The frontend of the project was build with nextjs using Javascript as the programming language., the styling 
+                        • The frontend of the project was build with nextjs using Javascript as the programming language, the styling 
                         UI was done using TailwindCSS.
                     </span>
                     <span>
@@ -156,6 +156,22 @@ const ProjectItem = () => {
                         <span>Showcase</span>
                     </Link>
                     <Link to={{ pathname: "https://github.com/theMillenniumFalcon/space-invaders" }} target="_blank" style={{color: "#ff424d", textDecoration: "none"}}>
+                        <span>Code</span>
+                    </Link>
+                </ProjectShowcase>
+            </ProjectComponent>
+            <ProjectComponent>
+                <ProjectTitle>◦ Conway's Game of Life Implementation</ProjectTitle>
+                <ProjectDesc>
+                    <span>
+                        • Implemented Conway's Game of Life in Javascript using ReactJS and React hooks.
+                    </span>
+                </ProjectDesc>
+                <ProjectShowcase>
+                    <Link to={{ pathname: "https://conway-game-react.netlify.app/" }} target="_blank" style={{color: "#ff424d", textDecoration: "none"}}>
+                        <span>Showcase</span>
+                    </Link>
+                    <Link to={{ pathname: "https://github.com/theMillenniumFalcon/Conway-game-react" }} target="_blank" style={{color: "#ff424d", textDecoration: "none"}}>
                         <span>Code</span>
                     </Link>
                 </ProjectShowcase>
