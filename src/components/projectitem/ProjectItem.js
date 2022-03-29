@@ -85,6 +85,26 @@ const ProjectItem = () => {
                 </ProjectShowcase>
             </ProjectComponent>
             <ProjectComponent>
+                <ProjectTitle>◦ Private Network DNS Server</ProjectTitle>
+                <ProjectDesc>
+                    <span>
+                        • Developed DNS server, DNS client and Service Provider(SP) for Private Network. Configured and modified PowerDNS 
+                        Authoritative & Recursive open-source software with PostgreSQL backend updates(using SP) to domain information.
+                    </span>
+                    <span>
+                        • Used Google Protocol Buffers (protobuf) for data serialization and BSD socket APIs for communication.
+                    </span>
+                </ProjectDesc>
+                <ProjectShowcase>
+                    <Link to={{ pathname: "https://next-serverless-bpc5r08e9-themillenniumfalcon.vercel.app/" }} target="_blank" style={{color: "#ff424d", textDecoration: "none"}}>
+                        <span>Showcase</span>
+                    </Link>
+                    <Link to={{ pathname: "https://github.com/theMillenniumFalcon/graphql-next" }} target="_blank" style={{color: "#ff424d", textDecoration: "none"}}>
+                        <span>Code</span>
+                    </Link>
+                </ProjectShowcase>
+            </ProjectComponent>
+            <ProjectComponent>
                 <ProjectTitle>◦ Distributed Spanning Tree Protocol</ProjectTitle>
                 <ProjectDesc>
                     <span>
