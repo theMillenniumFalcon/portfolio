@@ -12,7 +12,7 @@ const Navbar: React.FC<NavbarProps> = ({ }) => {
     return (
         <Flex zIndex={1} top={0} height="90px">
             <Flex flex={1} m="auto" align="center" maxW={1400}>
-                <NextLink href="/">
+                <NextLink href="/" passHref>
                     <Heading style={{ textDecoration: "none", cursor: "pointer" }}>Nishank</Heading>
                 </NextLink>
                 <Flex ml={"auto"} align="center">
