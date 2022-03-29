@@ -33,7 +33,6 @@ const Volunteering: React.FC<VolunteeringProps> = ({ }) => {
                             </ListItem>
                         </UnorderedList>
                     </ListItem>
-                    ////////////////////////////
                     <ListItem>
                         <Heading as='h2' size='xl' mb="5px">Contributor</Heading>
                         <Text fontSize='3xl' color="#ff424d" mb="5px">
@@ -54,7 +53,6 @@ const Volunteering: React.FC<VolunteeringProps> = ({ }) => {
                             </ListItem>
                         </UnorderedList>
                     </ListItem>
-                    /////////////////////////////////
                     <ListItem>
                         <Heading as='h2' size='xl' mb="5px">Event Coordinator</Heading>
                         <Text fontSize='3xl' color="#ff424d" mb="5px">

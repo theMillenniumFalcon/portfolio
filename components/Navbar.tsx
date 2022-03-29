@@ -17,22 +17,22 @@ const Navbar: React.FC<NavbarProps> = ({ }) => {
                 </NextLink>
                 <Flex ml={"auto"} align="center">
                     <Flex>
-                        <NextLink href='/skill'>
+                        <NextLink href='/skill' passHref>
                             <Link style={{ textDecoration: "none", cursor: "pointer" }} mr={20}>Skills</Link>
                         </NextLink>
-                        <NextLink href='/stack'>
+                        <NextLink href='/stack' passHref>
                             <Link style={{ textDecoration: "none", cursor: "pointer" }} mr={20}>Tech Stack</Link>
                         </NextLink>
-                        <NextLink href='/experience'>
+                        <NextLink href='/experience' passHref>
                             <Link style={{ textDecoration: "none", cursor: "pointer" }} mr={20}>Experience</Link>
                         </NextLink>
-                        <NextLink href='/volunteering'>
+                        <NextLink href='/volunteering' passHref>
                             <Link style={{ textDecoration: "none", cursor: "pointer" }} mr={20}>Volunteering</Link>
                         </NextLink>
-                        <NextLink href='/project'>
+                        <NextLink href='/project' passHref>
                             <Link style={{ textDecoration: "none", cursor: "pointer" }} mr={20}>Projects</Link>
                         </NextLink>
-                        <NextLink href='/blog'>
+                        <NextLink href='/blog' passHref>
                             <Link style={{ textDecoration: "none", cursor: "pointer" }} mr={20}>Blogs</Link>
                         </NextLink>
                     </Flex>

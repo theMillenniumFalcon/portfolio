@@ -8,28 +8,24 @@ const Home: NextPage = () => {
     <Layout>
       <Box>
         <Heading as='h1' size='4xl' isTruncated color="#ff424d" mb="50px" mt="20px">
-          Nishank Priydarshi
+          {"Nishank Priydarshi"}
         </Heading>
         <Box mb="30px">
           <Text fontSize='4xl' mb="30px">
-            Hello! My name is Nishank. I'm a computer science student from 🇮🇳.
-            I am a keen learner📕 and deeply passionate about Software development💻.
+            {"Hello! My name is Nishank. I'm a computer science student from 🇮🇳. I am a keen learner📕 and deeply passionate about Software development💻."}
           </Text>
           <Text fontSize='4xl' mb="30px">
-            Dreaming up ideas and making them come true is where my passion lies.
-            You can find my <NextLink href="/project">
+            {"Dreaming up ideas and making them come true is where my passion lies. You can find my"} <NextLink href="/project" passHref>
               <Link style={{ color: "#ff424d", cursor: "pointer" }}>
-                full projects list here.
+                {"full projects list here."}
               </Link>
             </NextLink>
           </Text>
           <Text fontSize='4xl' mb="30px">
-            Outside of programming, I enjoy design, reading books and traveling.
-            If you happen to be in the same city I live (currently in New Delhi),
-            maybe we can hang out together.
+            {"Outside of programming, I enjoy design, reading books and traveling. If you happen to be in the same city I live (currently in New Delhi), maybe we can hang out together." }
           </Text>
           <Text fontSize='4xl' mb="30px">
-            If you are interested you are checkout my recommended <NextLink href="/books">
+            If you are interested you are checkout my recommended <NextLink href="/books" passHref>
               <Link style={{ color: "#ff424d", cursor: "pointer" }}>
                 books here.
               </Link>

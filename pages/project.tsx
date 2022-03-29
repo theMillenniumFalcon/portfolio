@@ -9,22 +9,20 @@ const Project: React.FC<ProjectProps> = ({ }) => {
         <Layout>
             <Box mb={10}>
                 <Heading as='h1' size='4xl' isTruncated color="#ff424d" mb="50px" mt="20px">
-                    Projects
+                    {"Projects"}
                 </Heading>
                 <UnorderedList spacing="30px">
                     <ListItem>
-                        <Heading as='h2' size='xl' mb="5px">BitClout</Heading>
+                        <Heading as='h2' size='xl' mb="5px">{"BitClout"}</Heading>
                         <UnorderedList>
                             <ListItem>
                                 <Text fontSize='3xl' mb="3px">
-                                    This project is developed using React and Next.js on the frontend using TypeScript,
-                                    Nodejs on the backend, and GraphQL as the query language.
+                                    {"This project is developed using React and Next.js on the frontend using TypeScript, Nodejs on the backend, and GraphQL as the query language."}
                                 </Text>
                             </ListItem>
                             <ListItem>
                                 <Text fontSize='3xl' mb="5px">
-                                    Database used in PostgreSQL, Redis as a cache store, and Apollo platform to transfer
-                                    data between the server and the UI.
+                                    {"Database used in PostgreSQL, Redis as a cache store, and Apollo platform to transfer data between the server and the UI."}
                                 </Text>
                             </ListItem>
                             <Flex>
@@ -34,7 +32,7 @@ const Project: React.FC<ProjectProps> = ({ }) => {
                                         style={{ textDecoration: "none", cursor: "pointer", color: "#ff424d" }}
                                         target="_blank"
                                     >
-                                        Showcase
+                                        {"Showcase"}
                                     </Link>
                                 </Text>
                                 <Text fontSize='3xl' color="#ff424d">
@@ -43,19 +41,18 @@ const Project: React.FC<ProjectProps> = ({ }) => {
                                         style={{ textDecoration: "none", cursor: "pointer", color: "#ff424d" }}
                                         target="_blank"
                                     >
-                                        Code
+                                        {"Code"}
                                     </Link>
                                 </Text>
                             </Flex>
                         </UnorderedList>
                     </ListItem>
-                    /////////////////////////////
                     <ListItem>
-                        <Heading as='h2' size='xl' mb="5px">Mailer</Heading>
+                        <Heading as='h2' size='xl' mb="5px">{"Mailer"}</Heading>
                         <UnorderedList>
                             <ListItem>
                                 <Text fontSize='3xl' mb="3px">
-                                    A tool written in python used to send emails to the masses.
+                                    {"A tool written in python used to send emails to the masses."}
                                 </Text>
                             </ListItem>
                             <Flex>
@@ -65,19 +62,18 @@ const Project: React.FC<ProjectProps> = ({ }) => {
                                         style={{ textDecoration: "none", cursor: "pointer", color: "#ff424d" }}
                                         target="_blank"
                                     >
-                                        Code
+                                        {"Code"}
                                     </Link>
                                 </Text>
                             </Flex>
                         </UnorderedList>
                     </ListItem>
-                    /////////////////////////////
                     <ListItem>
-                        <Heading as='h2' size='xl' mb="5px">Private network DNS server</Heading>
+                        <Heading as='h2' size='xl' mb="5px">{"Private network DNS server"}</Heading>
                         <UnorderedList>
                             <ListItem>
                                 <Text fontSize='3xl' mb="3px">
-                                    A tool written in python used to send emails to the masses.
+                                    {"A tool written in python used to send emails to the masses."}
                                 </Text>
                             </ListItem>
                             <Flex>
@@ -87,26 +83,23 @@ const Project: React.FC<ProjectProps> = ({ }) => {
                                         style={{ textDecoration: "none", cursor: "pointer", color: "#ff424d" }}
                                         target="_blank"
                                     >
-                                        Code
+                                        {"Code"}
                                     </Link>
                                 </Text>
                             </Flex>
                         </UnorderedList>
                     </ListItem>
-                    /////////////////////////////
                     <ListItem>
                         <Heading as='h2' size='xl' mb="5px">Blog App</Heading>
                         <UnorderedList>
                             <ListItem>
                                 <Text fontSize='3xl' mb="3px">
-                                    The frontend of the project was build with nextjs using Javascript as the programming language,
-                                    the styling UI was done using TailwindCSS.
+                                    {"The frontend of the project was build with nextjs using Javascript as the programming language, the styling UI was done using TailwindCSS."}
                                 </Text>
                             </ListItem>
                             <ListItem>
                                 <Text fontSize='3xl' mb="5px">
-                                    GraphQL was used the query language for fullfilling the queries while the the addition and
-                                    deletion is done using graphCMS.
+                                    {"GraphQL was used the query language for fullfilling the queries while the the addition and deletion is done using graphCMS."}
                                 </Text>
                             </ListItem>
                             <Flex>
@@ -116,7 +109,7 @@ const Project: React.FC<ProjectProps> = ({ }) => {
                                         style={{ textDecoration: "none", cursor: "pointer", color: "#ff424d" }}
                                         target="_blank"
                                     >
-                                        Showcase
+                                        {"Shoecase"}
                                     </Link>
                                 </Text>
                                 <Text fontSize='3xl' color="#ff424d">
@@ -125,24 +118,23 @@ const Project: React.FC<ProjectProps> = ({ }) => {
                                         style={{ textDecoration: "none", cursor: "pointer", color: "#ff424d" }}
                                         target="_blank"
                                     >
-                                        Code
+                                        {"Code"}
                                     </Link>
                                 </Text>
                             </Flex>
                         </UnorderedList>
                     </ListItem>
-                    /////////////////////////////
                     <ListItem>
-                        <Heading as='h2' size='xl' mb="5px">A group chat app</Heading>
+                        <Heading as='h2' size='xl' mb="5px">{"A group chat app"}</Heading>
                         <UnorderedList>
                             <ListItem>
                                 <Text fontSize='3xl' mb="3px">
-                                    This project was made during a hackathon, using React on the frontend and Node.js on the backend.
+                                    {"This project was made during a hackathon, using React on the frontend and Node.js on the backend."}
                                 </Text>
                             </ListItem>
                             <ListItem>
                                 <Text fontSize='3xl' mb="5px">
-                                    The chat feature was made using getStream.io pre-build components.
+                                    {"The chat feature was made using getStream.io pre-build components."}
                                 </Text>
                             </ListItem>
                             <Flex>
@@ -152,7 +144,7 @@ const Project: React.FC<ProjectProps> = ({ }) => {
                                         style={{ textDecoration: "none", cursor: "pointer", color: "#ff424d" }}
                                         target="_blank"
                                     >
-                                        Showcase
+                                        {"Shoecase"}
                                     </Link>
                                 </Text>
                                 <Text fontSize='3xl' color="#ff424d">
@@ -161,24 +153,23 @@ const Project: React.FC<ProjectProps> = ({ }) => {
                                         style={{ textDecoration: "none", cursor: "pointer", color: "#ff424d" }}
                                         target="_blank"
                                     >
-                                        Code
+                                        {"Code"}
                                     </Link>
                                 </Text>
                             </Flex>
                         </UnorderedList>
                     </ListItem>
-                    /////////////////////////////
                     <ListItem>
-                        <Heading as='h2' size='xl' mb="5px">Space Invaders</Heading>
+                        <Heading as='h2' size='xl' mb="5px">{"Space Invaders"}</Heading>
                         <UnorderedList>
                             <ListItem>
                                 <Text fontSize='3xl' mb="3px">
-                                    A browser game which was created with the HTML canvas element using Javascript as the programming language.
+                                    {"A browser game which was created with the HTML canvas element using Javascript as the programming language."}
                                 </Text>
                             </ListItem>
                             <ListItem>
                                 <Text fontSize='3xl' mb="5px">
-                                    Implemented garbage collection to improve performance and to provide a better experience.
+                                    {"Implemented garbage collection to improve performance and to provide a better experience."}
                                 </Text>
                             </ListItem>
                             <Flex>
@@ -188,7 +179,7 @@ const Project: React.FC<ProjectProps> = ({ }) => {
                                         style={{ textDecoration: "none", cursor: "pointer", color: "#ff424d" }}
                                         target="_blank"
                                     >
-                                        Showcase
+                                        {"Shoecase"}
                                     </Link>
                                 </Text>
                                 <Text fontSize='3xl' color="#ff424d">
@@ -197,19 +188,18 @@ const Project: React.FC<ProjectProps> = ({ }) => {
                                         style={{ textDecoration: "none", cursor: "pointer", color: "#ff424d" }}
                                         target="_blank"
                                     >
-                                        Code
+                                        {"Code"}
                                     </Link>
                                 </Text>
                             </Flex>
                         </UnorderedList>
                     </ListItem>
-                    /////////////////////////////
                     <ListItem>
-                        <Heading as='h2' size='xl' mb="5px">Conway's Game of Life Implementation</Heading>
+                        <Heading as='h2' size='xl' mb="5px">{"Conway's Game of Life Implementation"}</Heading>
                         <UnorderedList>
                             <ListItem>
                                 <Text fontSize='3xl' mb="3px">
-                                    Implemented Conway's Game of Life in Javascript using ReactJS and React hooks.
+                                    {"Implemented Conway's Game of Life in Javascript using ReactJS and React hooks."}
                                 </Text>
                             </ListItem>
                             <Flex>
@@ -219,7 +209,7 @@ const Project: React.FC<ProjectProps> = ({ }) => {
                                         style={{ textDecoration: "none", cursor: "pointer", color: "#ff424d" }}
                                         target="_blank"
                                     >
-                                        Showcase
+                                        {"Shoecase"}
                                     </Link>
                                 </Text>
                                 <Text fontSize='3xl' color="#ff424d">
@@ -228,19 +218,18 @@ const Project: React.FC<ProjectProps> = ({ }) => {
                                         style={{ textDecoration: "none", cursor: "pointer", color: "#ff424d" }}
                                         target="_blank"
                                     >
-                                        Code
+                                        {"Code"}
                                     </Link>
                                 </Text>
                             </Flex>
                         </UnorderedList>
                     </ListItem>
-                    ////////////////////////////////
                     <ListItem>
-                        <Heading as='h2' size='xl' mb="5px">Invisible Cloak</Heading>
+                        <Heading as='h2' size='xl' mb="5px">{"Invisible Cloak"}</Heading>
                         <UnorderedList>
                             <ListItem>
                                 <Text fontSize='3xl' mb="3px">
-                                    Created a invisiblity cloak using python and OpenCV. The cloak color for the program to work should be red.
+                                    {"Created a invisiblity cloak using python and OpenCV. The cloak color for the program to work should be red."}
                                 </Text>
                             </ListItem>
                             <Flex>
@@ -250,13 +239,12 @@ const Project: React.FC<ProjectProps> = ({ }) => {
                                         style={{ textDecoration: "none", cursor: "pointer", color: "#ff424d" }}
                                         target="_blank"
                                     >
-                                        Code
+                                        {"Code"}
                                     </Link>
                                 </Text>
                             </Flex>
                         </UnorderedList>
                     </ListItem>
-                    /////////////////////////////
                 </UnorderedList>
             </Box>
         </Layout>
