@@ -16,7 +16,7 @@ const Home: NextPage = () => {
           </Text>
           <Text fontSize='4xl' mb="30px">
             {"Dreaming up ideas and making them come true is where my passion lies. You can find my"} <NextLink href="/project" passHref>
-              <Link style={{ color: "#ff424d", cursor: "pointer" }}>
+              <Link style={{ color: "#ff424d", cursor: "pointer", textDecoration:"none" }}>
                 {"full projects list here."}
               </Link>
             </NextLink>
@@ -26,7 +26,7 @@ const Home: NextPage = () => {
           </Text>
           <Text fontSize='4xl' mb="30px">
             If you are interested you are checkout my recommended <NextLink href="/books" passHref>
-              <Link style={{ color: "#ff424d", cursor: "pointer" }}>
+              <Link style={{ color: "#ff424d", cursor: "pointer", textDecoration:"none" }}>
                 books here.
               </Link>
             </NextLink>
