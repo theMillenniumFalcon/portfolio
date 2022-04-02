@@ -1,6 +1,6 @@
 import React from 'react'
 import NextLink from 'next/link'
-import { Flex, Heading, Box, Link } from '@chakra-ui/react'
+import { Flex, Heading, Box, Link, Image } from '@chakra-ui/react'
 import MailIcon from '@mui/icons-material/Mail';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
@@ -13,7 +13,15 @@ const Navbar: React.FC<NavbarProps> = ({ }) => {
         <Flex zIndex={1} top={0} height="90px">
             <Flex flex={1} m="auto" align="center" maxW={1400}>
                 <NextLink href="/" passHref>
-                    <Heading style={{ textDecoration: "none", cursor: "pointer" }}>Nishank</Heading>
+                    <Image
+                        cursor='pointer'
+                        htmlWidth='210px'
+                        htmlHeight='70px'
+                        objectFit='cover'
+                        src='assets/hero/hero.png'
+                        alt=''
+                        mr={4}
+                    />
                 </NextLink>
                 <Flex ml={"auto"} align="center">
                     <Flex>
