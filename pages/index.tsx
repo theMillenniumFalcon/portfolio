@@ -16,17 +16,17 @@ const Home: NextPage = () => {
           </Text>
           <Text fontSize='4xl' mb="30px">
             {"Dreaming up ideas and making them come true is where my passion lies. You can find my"} <NextLink href="/project" passHref>
-              <Link style={{ color: "#ff424d", cursor: "pointer", textDecoration:"none" }}>
+              <Link style={{ color: "#ff424d", cursor: "pointer", textDecoration: "none" }}>
                 {"full projects list here."}
               </Link>
             </NextLink>
           </Text>
           <Text fontSize='4xl' mb="30px">
-            {"Outside of programming, I enjoy design, reading books and traveling. If you happen to be in the same city I live (currently in New Delhi), maybe we can hang out together." }
+            {"Outside of programming, I enjoy design, reading books and traveling. If you happen to be in the same city I live (currently in New Delhi), maybe we can hang out together."}
           </Text>
           <Text fontSize='4xl' mb="30px">
             If you are interested you are checkout my recommended <NextLink href="/books" passHref>
-              <Link style={{ color: "#ff424d", cursor: "pointer", textDecoration:"none" }}>
+              <Link style={{ color: "#ff424d", cursor: "pointer", textDecoration: "none" }}>
                 books here.
               </Link>
             </NextLink>
@@ -48,8 +48,14 @@ const Home: NextPage = () => {
               GitHub, </Link>
             <Link href="https://www.linkedin.com/in/nishank-priydarshi-2526551ba/" style={{ color: "#ff424d", cursor: "pointer", textDecoration: "none" }}>
               LinkedIn, </Link>
-            and <Link href="https://twitter.com/nishankstwt" style={{ color: "#ff424d", cursor: "pointer", textDecoration: "none" }}>
-              Twitter.
+            <Link href="https://twitter.com/nishankstwt" style={{ color: "#ff424d", cursor: "pointer", textDecoration: "none" }}>
+              Twitter, </Link>
+            <Link href="https://hashnode.com/@nishankpr" style={{ color: "#ff424d", cursor: "pointer", textDecoration: "none" }}>
+              Hashnode, </Link>
+            <Link href="https://www.showwcase.com/nishankpr" style={{ color: "#ff424d", cursor: "pointer", textDecoration: "none" }}>
+              Showwcase, </Link>
+            and <Link href="https://www.polywork.com/burritospeakers" style={{ color: "#ff424d", cursor: "pointer", textDecoration: "none" }}>
+              Polywork.
             </Link>
           </Text>
           <Text fontSize='4xl' mb="30px">

@@ -14,7 +14,24 @@ const Blog: React.FC<BlogProps> = ({ }) => {
                 <SimpleGrid columns={2} spacing={10}>
                     <Box mb="20px">
                         <Link
-                            href="https://gssoc.girlscript.tech/"
+                            href="https://nishankpr.hashnode.dev/introduction-to-typescript-generics"
+                            style={{ textDecoration: "none", cursor: "pointer" }}
+                            target="_blank"
+                        >
+                            <Image
+                                width='320px'
+                                height='180px'
+                                objectFit='cover'
+                                src='assets/blog/2.png'
+                                alt='Introduction to Typescript Generics'
+                            />
+                            <Text fontSize='3xl' mb="5px">April 2022</Text>
+                            <Text fontSize='3xl'>What are Node.js streams?</Text>
+                        </Link>
+                    </Box>
+                    <Box mb="20px">
+                        <Link
+                            href="https://nishankpr.hashnode.dev/introduction-to-typescript-generics"
                             style={{ textDecoration: "none", cursor: "pointer" }}
                             target="_blank"
                         >
@@ -23,12 +40,11 @@ const Blog: React.FC<BlogProps> = ({ }) => {
                                 height='180px'
                                 objectFit='cover'
                                 src='assets/blog/1.png'
-                                alt='Getting started with freelancing'
+                                alt='Introduction to Typescript Generics'
                             />
-                            <Text fontSize='3xl' mb="5px">March 2022</Text>
-                            <Text fontSize='3xl'>Getting started with freelancing</Text>
+                            <Text fontSize='3xl' mb="5px">April 2022</Text>
+                            <Text fontSize='3xl'>Introduction to Typescript Generics</Text>
                         </Link>
-
                     </Box>
                 </SimpleGrid>
             </Box>

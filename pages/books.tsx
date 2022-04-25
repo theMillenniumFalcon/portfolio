@@ -11,7 +11,7 @@ const Books: React.FC<BooksProps> = ({ }) => {
                     <Heading as='h2' size='3xl' isTruncated color="#ff424d" mb="50px" mt="20px">
                         Some book recommendations
                     </Heading>
-                    <SimpleGrid columns={2} spacing={10}>
+                    <SimpleGrid columns={2} spacing={10} mb="30px">
                         <Box mb="20px">
                             <Text fontSize='5xl'>001. To Kill a Mockingbird</Text>
                         </Box>
@@ -55,6 +55,16 @@ const Books: React.FC<BooksProps> = ({ }) => {
                             <Text fontSize='5xl'>013. David Copperfield</Text>
                         </Box>
                     </SimpleGrid>
+                    <hr style={{
+                        height: "1px",
+                        width: "70px",
+                        borderWidth: "0",
+                        color: "#ff424d",
+                        backgroundColor: "#ff424d",
+                        marginRight: "auto",
+                        marginLeft: "auto"
+                    }}
+                    />
                 </Box>
             </Flex>
         </>

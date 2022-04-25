@@ -26,18 +26,9 @@ const Project: React.FC<ProjectProps> = ({ }) => {
                                 </Text>
                             </ListItem>
                             <Flex>
-                                <Text fontSize='3xl' color="#ff424d" mr={20}>
-                                    <Link
-                                        href="https://www.linkedin.com/in/nishank-priydarshi-2526551ba/"
-                                        style={{ textDecoration: "none", cursor: "pointer", color: "#ff424d" }}
-                                        target="_blank"
-                                    >
-                                        {"Showcase"}
-                                    </Link>
-                                </Text>
                                 <Text fontSize='3xl' color="#ff424d">
                                     <Link
-                                        href="https://www.linkedin.com/in/nishank-priydarshi-2526551ba/"
+                                        href="https://github.com/theMillenniumFalcon/BitClout"
                                         style={{ textDecoration: "none", cursor: "pointer", color: "#ff424d" }}
                                         target="_blank"
                                     >
@@ -69,11 +60,11 @@ const Project: React.FC<ProjectProps> = ({ }) => {
                         </UnorderedList>
                     </ListItem>
                     <ListItem>
-                        <Heading as='h2' size='xl' mb="5px">{"Private network DNS server"}</Heading>
+                        <Heading as='h2' size='xl' mb="5px">{"DNS server"}</Heading>
                         <UnorderedList>
                             <ListItem>
                                 <Text fontSize='3xl' mb="3px">
-                                    {"A tool written in python used to send emails to the masses."}
+                                    {"Created a DNS server to track packets travelling in and from our local machine."}
                                 </Text>
                             </ListItem>
                             <Flex>
