@@ -10,7 +10,6 @@ const Wrapper: React.FC<WrapperProps> = ({ children }) => {
             mx="auto"
             maxW = "700px"
             w="100%"
-            backgroundColor="red"
         >
             {children}
         </Box>

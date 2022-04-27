@@ -13,7 +13,7 @@ const Achievement: React.FC<AchievementProps> = ({ }) => {
                 </Heading>
                 <UnorderedList spacing="20px">
                     <ListItem>
-                        <Heading as='h2' size='xl'>SUSE Cloud Native Scholarship</Heading>
+                        <Heading as='h2' size='xl'>SUSE Cloud Native Scholarship Recepient</Heading>
                         <Text fontSize='3xl' color="#ff424d" mt="5px">June 2021</Text>
                     </ListItem>
                 </UnorderedList>

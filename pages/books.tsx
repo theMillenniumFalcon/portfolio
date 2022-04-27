@@ -1,5 +1,6 @@
-import { Box, Flex, Heading, SimpleGrid, Text } from '@chakra-ui/react'
+import { Box, Flex, Heading, SimpleGrid, Text, Link } from '@chakra-ui/react'
 import React from 'react'
+import NextLink from 'next/link'
 
 interface BooksProps { }
 
@@ -13,7 +14,15 @@ const Books: React.FC<BooksProps> = ({ }) => {
                     </Heading>
                     <SimpleGrid columns={2} spacing={10} mb="30px">
                         <Box mb="20px">
-                            <Text fontSize='5xl'>001. To Kill a Mockingbird</Text>
+                            <NextLink href='/books/001'>
+                                <Link style={{
+                                    textDecoration: "none", cursor: "pointer",
+                                }}>
+                                    <Text fontSize='5xl' _hover={{ color: '#ff424d' }}>
+                                        001. To Kill a Mockingbird
+                                    </Text>
+                                </Link>
+                            </NextLink>
                         </Box>
                         <Box mb="20px">
                             <Text fontSize='5xl'>002. The Fault in Our Stars</Text>
@@ -52,7 +61,7 @@ const Books: React.FC<BooksProps> = ({ }) => {
                             <Text fontSize='5xl'>013. A Thousand Splendid Suns</Text>
                         </Box>
                         <Box mb="20px">
-                            <Text fontSize='5xl'>013. David Copperfield</Text>
+                            <Text fontSize='5xl'>014. David Copperfield</Text>
                         </Box>
                     </SimpleGrid>
                     <hr style={{

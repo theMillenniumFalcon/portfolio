@@ -1,13 +1,44 @@
-import { Box, Heading, Text, Link } from '@chakra-ui/react'
+import { Box, Heading, Text, Link, Image } from '@chakra-ui/react'
 import NextLink from 'next/link'
 import type { NextPage } from 'next'
 import { Layout } from '../components/Layout'
+import MailIcon from '@mui/icons-material/Mail';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 const Home: NextPage = () => {
   return (
     <Layout>
       <Box>
-        <Heading as='h1' size='4xl' isTruncated color="#ff424d" mb="50px" mt="20px">
+        <Box display="flex" alignItems="center" justifyContent="space-between">
+          <NextLink href="/" passHref>
+            <Image
+              cursor='pointer'
+              htmlWidth='210px'
+              htmlHeight='70px'
+              objectFit='cover'
+              src='assets/hero/hero.png'
+              alt=''
+              mr={4}
+            />
+          </NextLink>
+          <Box>
+            <Link href="mailto: nishankpr435@gmail.com" mr={20}>
+              <MailIcon />
+            </Link>
+            <Link href="https://github.com/theMillenniumFalcon" target="_blank" mr={20}>
+              <GitHubIcon />
+            </Link>
+            <Link href="https://www.linkedin.com/in/nishank-priydarshi-2526551ba/" target="_blank" mr={20}>
+              <LinkedInIcon />
+            </Link>
+            <Link href="https://twitter.com/nishankstwt" target="_blank">
+              <TwitterIcon />
+            </Link>
+          </Box>
+        </Box>
+        <Heading as='h1' size='4xl' isTruncated color="#ff424d" mb="30px" mt="10px">
           {"Nishank Priydarshi"}
         </Heading>
         <Box mb="30px">
