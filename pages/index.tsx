@@ -6,7 +6,6 @@ import MailIcon from '@mui/icons-material/Mail';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import Toggle from '../components/Toggle';
 
 const Home: NextPage = () => {
   return (
@@ -39,12 +38,9 @@ const Home: NextPage = () => {
             </Link>
           </Box>
         </Box>
-        <Box display="flex" alignItems="center" justifyContent="space-between" mb="30px" mt="10px">
-          <Heading as='h1' size='4xl' isTruncated color="#ff424d">
-            {"Nishank Priydarshi"}
-          </Heading>
-          <Toggle/>
-        </Box>
+        <Heading as='h1' size='4xl' isTruncated color="#ff424d" mb="30px" mt="10px">
+          {"Nishank Priydarshi"}
+        </Heading>
         <Box mb="30px">
           <Text fontSize='4xl' mb="30px">
             {"Hello! My name is Nishank. I'm a computer science student from 🇮🇳. I am a keen learner📕 and deeply passionate about Software development💻."}

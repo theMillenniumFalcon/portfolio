@@ -6,13 +6,13 @@ interface MockingbirdProps { }
 const Mockingbird: React.FC<MockingbirdProps> = ({ }) => {
     return (
         <>
-            <Flex mt="50px" mx="auto" maxW="700px" w="100%" marginBottom="20px">
+            <Flex mt="50px" mx="auto" maxW="46vw" w="100%" marginBottom="20px">
                 <Box>
                     <Heading as='h2' size='3xl' isTruncated color="#ff424d" mb="50px" mt="20px">
-                    Crime and Punishment
+                        Crime and Punishment
                     </Heading>
                     <Text fontSize='5xl' mb="30px">
-                        What derives someone to murder in cold blood, What goes through the murderer's mind
+                        What drives someone to murder in cold blood, What goes through the murderer's mind
                         and What kind of society breeds such people? These are some of the aspects adderessed by Crime and
                         Punishment written by Fyodor Dostoevsky.
                     </Text>
@@ -20,28 +20,24 @@ const Mockingbird: React.FC<MockingbirdProps> = ({ }) => {
                         Crime and Punishment, being one of the best known works of russian literature, narrates
                         the story of a young man in Saint Petersburg, who lives in extreme poverty and has run out
                         of funds at the start of the story. Letters from his rural home only add to his distress, when
-                        he realises the sacrifices of his mother and sister. 
+                        he realises the sacrifices of his mother and sister. Increasingly desperate after selling
+                        his last valuables to an elderly pawnbroker, he plans to murder and rob her, but the act of
+                        carrying this act was way more than he was prepared for.
                     </Text>
                     <Text fontSize='5xl' mb="30px">
-                        Inspite of my previous statements, I have to say that I still enjoy the book and
-                        feel it does deserve the title of being a classic because it explores how human
-                        beings feel, how we change, and examines all of these issues through the use of
-                        symbols, dialogue and other literary means. It is brilliantly written.
+                        The scope of the story is way beyond a typical psychological thriller, from dank taverns to
+                        dilapidated apartments and claustrophobic police stations, the underbelly of 19th century Saint
+                        Petersburg is brough to life by Dostoevsky's searing prose.
+
                     </Text>
                     <Text fontSize='5xl' mb="30px">
-                        Boo Radley is the prime example of a mockingbird as pointed out by Scout.
-                        He has become a recluse, unable to be around people, because of the abuse
-                        of his father. His mind has reverted into a child-like state as witnessed
-                        by his treasures that he shares with Scout and Jem. He witnesses Mr. Ewell
-                        trying to harm Scout and knows he must act to preserve her innocence despite
-                        the foggy understanding he has of life. Boo’s child-like demeanor is emphasized
-                        when Scout gently takes his hand to lead him out of a corner, she knows that she
-                        has nothing to fear from this innocent man.
+                        This bleak portrait of russian society reflects the author's own complex life experiences and
+                        evolving ideas.
                     </Text>
                     <Text fontSize='5xl' mb="30px">
-                    There are other themes and symbols that could be explored, but the point is that 
-                    To Kill A Mockingbird has a timeless quality and thought provoking situations 
-                    that make it a classic.
+                        There are other themes and symbols that could be explored, but the point is that
+                        To Kill A Mockingbird has a timeless quality and thought provoking situations
+                        that make it a classic.
                     </Text>
                     <hr style={{
                         height: "1px",
