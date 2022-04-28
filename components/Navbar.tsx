@@ -11,7 +11,7 @@ const Navbar: React.FC<NavbarProps> = ({ }) => {
 
     return (
         <Flex zIndex={1} top={0} height="90px"> 
-            <Flex flex={1} m="auto" maxW="700px" paddingTop={40} flexWrap="wrap">
+            <Flex flex={1} m="auto" maxW="46vw" paddingTop={40} flexWrap="wrap">
                 <NextLink href='/' passHref>
                     <Link style={{
                         textDecoration: "none", cursor: "pointer",

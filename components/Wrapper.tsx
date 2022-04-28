@@ -8,7 +8,7 @@ const Wrapper: React.FC<WrapperProps> = ({ children }) => {
         <Box
             mt={8}
             mx="auto"
-            maxW = "700px"
+            maxW = "46vw"
             w="100%"
         >
             {children}

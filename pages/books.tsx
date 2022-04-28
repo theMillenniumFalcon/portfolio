@@ -19,49 +19,10 @@ const Books: React.FC<BooksProps> = ({ }) => {
                                     textDecoration: "none", cursor: "pointer",
                                 }}>
                                     <Text fontSize='5xl' _hover={{ color: '#ff424d' }}>
-                                        001. To Kill a Mockingbird
+                                        001. Crime and Punishment
                                     </Text>
                                 </Link>
                             </NextLink>
-                        </Box>
-                        <Box mb="20px">
-                            <Text fontSize='5xl'>002. The Fault in Our Stars</Text>
-                        </Box>
-                        <Box mb="20px">
-                            <Text fontSize='5xl'>003. Crime and Punishment</Text>
-                        </Box>
-                        <Box mb="20px">
-                            <Text fontSize='5xl'>004. Dune</Text>
-                        </Box>
-                        <Box mb="20px">
-                            <Text fontSize='5xl'>005. The Kite Runner</Text>
-                        </Box>
-                        <Box mb="20px">
-                            <Text fontSize='5xl'>006. The Courage to be Disliked</Text>
-                        </Box>
-                        <Box mb="20px">
-                            <Text fontSize='5xl'>007. Kafka on the Shore</Text>
-                        </Box>
-                        <Box mb="20px">
-                            <Text fontSize='5xl'>008. Pride and Prejudice</Text>
-                        </Box>
-                        <Box mb="20px">
-                            <Text fontSize='5xl'>009. Steve Jobs</Text>
-                        </Box>
-                        <Box mb="20px">
-                            <Text fontSize='5xl'>010. A Wrinkle in Time</Text>
-                        </Box>
-                        <Box mb="20px">
-                            <Text fontSize='5xl'>011. In Cold Blood</Text>
-                        </Box>
-                        <Box mb="20px">
-                            <Text fontSize='5xl'>012. The Shining</Text>
-                        </Box>
-                        <Box mb="20px">
-                            <Text fontSize='5xl'>013. A Thousand Splendid Suns</Text>
-                        </Box>
-                        <Box mb="20px">
-                            <Text fontSize='5xl'>014. David Copperfield</Text>
                         </Box>
                     </SimpleGrid>
                     <hr style={{

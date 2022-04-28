@@ -9,24 +9,18 @@ const Mockingbird: React.FC<MockingbirdProps> = ({ }) => {
             <Flex mt="50px" mx="auto" maxW="700px" w="100%" marginBottom="20px">
                 <Box>
                     <Heading as='h2' size='3xl' isTruncated color="#ff424d" mb="50px" mt="20px">
-                        To Kill a Mockingbird
+                    Crime and Punishment
                     </Heading>
                     <Text fontSize='5xl' mb="30px">
-                        I grew up knowing very little of prejudice and I remember feeling incensed
-                        over the injustice of Scout’s world when I first read To Kill A Mocking Bird.
-                        I also remember I was intrigued with Boo Radley, just as the children were curious
-                        to test their boundaries concerning Boo.
+                        What derives someone to murder in cold blood, What goes through the murderer's mind
+                        and What kind of society breeds such people? These are some of the aspects adderessed by Crime and
+                        Punishment written by Fyodor Dostoevsky.
                     </Text>
                     <Text fontSize='5xl' mb="30px">
-                        Reading To Kill A Mocking Bird again, about 20 years later, has been an interesting
-                        experience. I still cannot understand the deep hatred of prejudice and felt many of my
-                        previous emotions. However, this time I have also considered the emotions of teenagers
-                        reading such raw emotions and reading about a sexually charged situation and wonder if
-                        there might not be other books to teach these same values that will not make the children
-                        so uncomfortable. When my oldest child read the book in school he felt most of it was
-                        boring (he doesn’t love reading at this point and time in his life), but even more
-                        importantly he was so uncomfortable with the accusation of rape that I think he, perhaps,
-                        missed some of the bigger issues being taught.
+                        Crime and Punishment, being one of the best known works of russian literature, narrates
+                        the story of a young man in Saint Petersburg, who lives in extreme poverty and has run out
+                        of funds at the start of the story. Letters from his rural home only add to his distress, when
+                        he realises the sacrifices of his mother and sister. 
                     </Text>
                     <Text fontSize='5xl' mb="30px">
                         Inspite of my previous statements, I have to say that I still enjoy the book and
