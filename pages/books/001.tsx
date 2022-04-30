@@ -1,9 +1,10 @@
 import { Box, Flex, Heading, Text } from '@chakra-ui/react'
 import React from 'react'
+import { Horizontal } from '../../components/Horizontal'
 
-interface MockingbirdProps { }
+interface CrimeandPunishmentProps { }
 
-const Mockingbird: React.FC<MockingbirdProps> = ({ }) => {
+const CrimeandPunishment: React.FC<CrimeandPunishmentProps> = ({ }) => {
     return (
         <>
             <Flex mt="50px" mx="auto" maxW="46vw" w="100%" marginBottom="20px">
@@ -39,20 +40,11 @@ const Mockingbird: React.FC<MockingbirdProps> = ({ }) => {
                         To Kill A Mockingbird has a timeless quality and thought provoking situations
                         that make it a classic.
                     </Text>
-                    <hr style={{
-                        height: "1px",
-                        width: "70px",
-                        borderWidth: "0",
-                        color: "#ff424d",
-                        backgroundColor: "#ff424d",
-                        marginRight: "auto",
-                        marginLeft: "auto"
-                    }}
-                    />
+                    <Horizontal />
                 </Box>
             </Flex>
         </>
     )
 }
 
-export default Mockingbird
+export default CrimeandPunishment

@@ -6,6 +6,7 @@ import MailIcon from '@mui/icons-material/Mail';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import { Horizontal } from '../components/Horizontal';
 
 const Home: NextPage = () => {
   return (
@@ -41,7 +42,7 @@ const Home: NextPage = () => {
         <Heading as='h1' size='4xl' isTruncated color="#ff424d" mb="30px" mt="10px">
           {"Nishank Priydarshi"}
         </Heading>
-        <Box mb="30px">
+        <Box>
           <Text fontSize='4xl' mb="30px">
             {"Hello! My name is Nishank. I'm a computer science student from 🇮🇳. I am a keen learner📕 and deeply passionate about Software development💻."}
           </Text>
@@ -63,17 +64,8 @@ const Home: NextPage = () => {
             </NextLink>
           </Text>
         </Box>
-        <hr style={{
-          height: "1px",
-          width: "70px",
-          borderWidth: "0",
-          color: "#ff424d",
-          backgroundColor: "#ff424d",
-          marginRight: "auto",
-          marginLeft: "auto"
-        }}
-        />
-        <Box my="30px">
+        <Horizontal />
+        <Box>
           <Text fontSize='4xl' mb="30px">
             Find me on <Link href="https://github.com/theMillenniumFalcon" style={{ color: "#ff424d", cursor: "pointer", textDecoration: "none" }}>
               GitHub, </Link>
@@ -90,20 +82,16 @@ const Home: NextPage = () => {
             </Link>
           </Text>
           <Text fontSize='4xl' mb="30px">
+            You can also subscribe to my newsletter on <Link href="https://nishankpr.substack.com/" style={{ color: "#ff424d", cursor: "pointer", textDecoration: "none" }}>
+              Substack.
+            </Link>
+          </Text>
+          <Text fontSize='4xl' mb="30px">
             Mail me at <Link href="mailto: nishankpr435@gmail.com" style={{ color: "#ff424d", cursor: "pointer", textDecoration: "none" }}>
               nishankpr435@gmail.com.</Link>
           </Text>
         </Box>
-        <hr style={{
-          height: "1px",
-          width: "70px",
-          borderWidth: "0",
-          color: "#ff424d",
-          backgroundColor: "#ff424d",
-          marginRight: "auto",
-          marginLeft: "auto"
-        }}
-        />
+        <Horizontal />
       </Box>
     </Layout>
   )

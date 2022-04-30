@@ -22,6 +22,23 @@ const Blog: React.FC<BlogProps> = ({ }) => {
                                 width='320px'
                                 height='180px'
                                 objectFit='cover'
+                                src='assets/blog/3.png'
+                                alt='Introduction to Typescript Generics'
+                            />
+                            <Text fontSize='3xl' mb="5px">May 2022</Text>
+                            <Text fontSize='3xl'>Getting started with freelancing</Text>
+                        </Link>
+                    </Box>
+                    <Box mb="20px">
+                        <Link
+                            href="https://nishankpr.hashnode.dev/introduction-to-typescript-generics"
+                            style={{ textDecoration: "none", cursor: "pointer" }}
+                            target="_blank"
+                        >
+                            <Image
+                                width='320px'
+                                height='180px'
+                                objectFit='cover'
                                 src='assets/blog/2.png'
                                 alt='Introduction to Typescript Generics'
                             />
@@ -31,7 +48,7 @@ const Blog: React.FC<BlogProps> = ({ }) => {
                     </Box>
                     <Box mb="20px">
                         <Link
-                            href="https://nishankpr.hashnode.dev/introduction-to-typescript-generics"
+                            href="https://nishankpr.hashnode.dev/what-are-nodejs-streams"
                             style={{ textDecoration: "none", cursor: "pointer" }}
                             target="_blank"
                         >

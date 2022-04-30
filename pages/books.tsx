@@ -1,6 +1,7 @@
 import { Box, Flex, Heading, SimpleGrid, Text, Link } from '@chakra-ui/react'
 import React from 'react'
 import NextLink from 'next/link'
+import { Horizontal } from '../components/Horizontal'
 
 interface BooksProps { }
 
@@ -12,7 +13,7 @@ const Books: React.FC<BooksProps> = ({ }) => {
                     <Heading as='h2' size='3xl' isTruncated color="#ff424d" mb="50px" mt="20px">
                         Some book recommendations
                     </Heading>
-                    <SimpleGrid columns={2} spacing={10} mb="30px">
+                    <SimpleGrid columns={2} spacing="30px" mb="30px">
                         <Box mb="20px">
                             <NextLink href='/books/001'>
                                 <Link style={{
@@ -24,17 +25,19 @@ const Books: React.FC<BooksProps> = ({ }) => {
                                 </Link>
                             </NextLink>
                         </Box>
+                        <Box mb="20px">
+                            <NextLink href='/books/002'>
+                                <Link style={{
+                                    textDecoration: "none", cursor: "pointer",
+                                }}>
+                                    <Text fontSize='5xl' _hover={{ color: '#ff424d' }}>
+                                        002. Fahrenheit 451
+                                    </Text>
+                                </Link>
+                            </NextLink>
+                        </Box>
                     </SimpleGrid>
-                    <hr style={{
-                        height: "1px",
-                        width: "70px",
-                        borderWidth: "0",
-                        color: "#ff424d",
-                        backgroundColor: "#ff424d",
-                        marginRight: "auto",
-                        marginLeft: "auto"
-                    }}
-                    />
+                    <Horizontal />
                 </Box>
             </Flex>
         </>
