@@ -10,19 +10,19 @@ const Fahrenheit: React.FC<FahrenheitProps> = ({ }) => {
             <Flex mt="50px" mx="auto" maxW="46vw" w="100%" marginBottom="20px">
                 <Box>
                     <Heading as='h2' size='3xl' isTruncated color="#ff424d" mb="50px" mt="20px">
-                        Fahrenheit 451
+                        {"Fahrenheit 451"}
                     </Heading>
                     <Text fontSize='5xl' mb="30px">
-                        This Ray Bradbury book imagines a dystopian world where books are banned from all areas of life, and
-                        reading, let alone possessing them, is forbidden and lead to fatal. The protagonist, Guy Montag is a fireman, 
-                        reponsible for destroying what remains but as his pleasure sparks doubt, the story presents a critical 
-                        question on how to preserve one's mind in a society where free will, self expression and curiosity are 
-                        under fire.
+                        {"This Ray Bradbury book imagines a dystopian world where books are banned from all areas of life, and"}
+                        {"reading, let alone possessing them, is forbidden and lead to fatal. The protagonist, Guy Montag is a fireman, "}
+                        {"reponsible for destroying what remains but as his pleasure sparks doubt, the story presents a critical "}
+                        {" question on how to preserve one's mind in a society where free will, self expression and curiosity are "}
+                        {"under fire."}
                     </Text>
                     <Text fontSize='5xl' mb="30px">
-                        As he sets books ablaze, Montag's mind occasionally wanders to the contraband that lies hidden in his home.
-                        Gradually, he begins to question the basis of his work. Fahrenheit 451 depicts a world governed by surveillance,
-                        robotics and virtual reality.
+                        {" As he sets books ablaze, Montag's mind occasionally wanders to the contraband that lies hidden in his home."}
+                        {"Gradually, he begins to question the basis of his work. Fahrenheit 451 depicts a world governed by surveillance,"}
+                        {"robotics and virtual reality."}
                     </Text>
                     <Horizontal />
                 </Box>
