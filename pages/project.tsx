@@ -13,6 +13,32 @@ const Project: React.FC<ProjectProps> = ({ }) => {
                 </Heading>
                 <UnorderedList spacing="30px">
                     <ListItem>
+                        <Heading as='h2' size='xl' mb="5px">{"hideout"}</Heading>
+                        <UnorderedList>
+                            <ListItem>
+                                <Text fontSize='3xl' mb="3px">
+                                    {"A highly scalable web sockets based voice chat web-application."}
+                                </Text>
+                            </ListItem>
+                            <ListItem>
+                                <Text fontSize='3xl' mb="3px" color="#ff424d">
+                                    {"Currently under development."}
+                                </Text>
+                            </ListItem>
+                            <Flex>
+                                <Text fontSize='3xl' color="#ff424d">
+                                    <Link
+                                        href="https://github.com/theMillenniumFalcon/hideout"
+                                        style={{ textDecoration: "none", cursor: "pointer", color: "#ff424d" }}
+                                        target="_blank"
+                                    >
+                                        {"Code"}
+                                    </Link>
+                                </Text>
+                            </Flex>
+                        </UnorderedList>
+                    </ListItem>
+                    <ListItem>
                         <Heading as='h2' size='xl' mb="5px">{"BitClout"}</Heading>
                         <UnorderedList>
                             <ListItem>

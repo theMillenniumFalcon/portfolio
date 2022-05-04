@@ -96,6 +96,16 @@ const Stack: React.FC<StackProps> = ({ }) => {
                         <Image
                             boxSize='28px'
                             objectFit='cover'
+                            src='assets/tech/cloudflare.png'
+                            alt=''
+                            mr={4}
+                        />
+                        <Heading as='h3' size='lg'>Cloudflare</Heading>
+                    </Flex>
+                    <Flex align="center" mb="20px">
+                        <Image
+                            boxSize='28px'
+                            objectFit='cover'
                             src='assets/tech/linux.png'
                             alt=''
                             mr={4}

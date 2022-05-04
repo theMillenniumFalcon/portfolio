@@ -22,7 +22,12 @@ const Fahrenheit: React.FC<FahrenheitProps> = ({ }) => {
                     <Text fontSize='5xl' mb="30px">
                         {" As he sets books ablaze, Montag's mind occasionally wanders to the contraband that lies hidden in his home."}
                         {"Gradually, he begins to question the basis of his work. Fahrenheit 451 depicts a world governed by surveillance,"}
-                        {"robotics and virtual reality."}
+                        {"robotics and virtual reality, a vision that proved remarkably prescient, but also spoke to the concerns of "}
+                        {" the time. The book is also titled after the temperature at which paper burns."}
+                    </Text>
+                    <Text fontSize='5xl' mb="30px">
+                        {" Though some consider Fahrenheit 451 as one of the finest works of dystopian fiction, but I found it to be "}
+                        {" pretty mediocre. "}
                     </Text>
                     <Horizontal />
                 </Box>
