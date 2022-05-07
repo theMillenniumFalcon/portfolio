@@ -1,7 +1,7 @@
 import { Box, Flex, Heading, SimpleGrid, Text, Link } from '@chakra-ui/react'
 import React from 'react'
 import NextLink from 'next/link'
-import { Horizontal } from '../components/Horizontal'
+import { Horizontal } from '../../components/Horizontal'
 
 interface BooksProps { }
 
