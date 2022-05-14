@@ -12,7 +12,7 @@ const Stack: React.FC<StackProps> = ({ }) => {
                     Tech Stack
                 </Heading>
                 <SimpleGrid columns={3} spacing={10}>
-                    <Flex align="center" mb="20px">
+                    <Flex align="center" mb="20px" cursor="default">
                         <Image
                             boxSize='28px'
                             objectFit='cover'
@@ -22,7 +22,7 @@ const Stack: React.FC<StackProps> = ({ }) => {
                         />
                         <Heading as='h3' size='lg'>Java</Heading>
                     </Flex>
-                    <Flex align="center" mb="20px">
+                    <Flex align="center" mb="20px" cursor="default">
                         <Image
                             boxSize='28px'
                             objectFit='cover'
@@ -32,7 +32,7 @@ const Stack: React.FC<StackProps> = ({ }) => {
                         />
                         <Heading as='h3' size='lg'>JavaScript</Heading>
                     </Flex>
-                    <Flex align="center" mb="20px">
+                    <Flex align="center" mb="20px" cursor="default">
                         <Image
                             boxSize='28px'
                             objectFit='cover'
@@ -42,7 +42,7 @@ const Stack: React.FC<StackProps> = ({ }) => {
                         />
                         <Heading as='h3' size='lg'>TypeScript</Heading>
                     </Flex>
-                    <Flex align="center" mb="20px">
+                    <Flex align="center" mb="20px" cursor="default">
                         <Image
                             boxSize='28px'
                             objectFit='cover'
@@ -52,7 +52,7 @@ const Stack: React.FC<StackProps> = ({ }) => {
                         />
                         <Heading as='h3' size='lg'>React</Heading>
                     </Flex>
-                    <Flex align="center" mb="20px">
+                    <Flex align="center" mb="20px" cursor="default">
                         <Image
                             boxSize='28px'
                             objectFit='cover'
@@ -62,7 +62,7 @@ const Stack: React.FC<StackProps> = ({ }) => {
                         />
                         <Heading as='h3' size='lg'>GraphQL</Heading>
                     </Flex>
-                    <Flex align="center" mb="20px">
+                    <Flex align="center" mb="20px" cursor="default">
                         <Image
                             boxSize='28px'
                             objectFit='cover'
@@ -72,7 +72,7 @@ const Stack: React.FC<StackProps> = ({ }) => {
                         />
                         <Heading as='h3' size='lg'>MongoDB</Heading>
                     </Flex>
-                    <Flex align="center" mb="20px">
+                    <Flex align="center" mb="20px" cursor="default">
                         <Image
                             boxSize='28px'
                             objectFit='cover'
@@ -82,7 +82,7 @@ const Stack: React.FC<StackProps> = ({ }) => {
                         />
                         <Heading as='h3' size='lg'>PostgreSQL</Heading>
                     </Flex>
-                    <Flex align="center" mb="20px">
+                    <Flex align="center" mb="20px" cursor="default">
                         <Image
                             boxSize='28px'
                             objectFit='cover'
@@ -92,7 +92,17 @@ const Stack: React.FC<StackProps> = ({ }) => {
                         />
                         <Heading as='h3' size='lg'>Docker</Heading>
                     </Flex>
-                    <Flex align="center" mb="20px">
+                    <Flex align="center" mb="20px" cursor="default">
+                        <Image
+                            boxSize='28px'
+                            objectFit='cover'
+                            src='assets/tech/bash.png'
+                            alt=''
+                            mr={4}
+                        />
+                        <Heading as='h3' size='lg'>Bash</Heading>
+                    </Flex>
+                    <Flex align="center" mb="20px" cursor="default">
                         <Image
                             boxSize='28px'
                             objectFit='cover'
@@ -102,7 +112,7 @@ const Stack: React.FC<StackProps> = ({ }) => {
                         />
                         <Heading as='h3' size='lg'>Cloudflare</Heading>
                     </Flex>
-                    <Flex align="center" mb="20px">
+                    <Flex align="center" mb="20px" cursor="default">
                         <Image
                             boxSize='28px'
                             objectFit='cover'
@@ -112,7 +122,7 @@ const Stack: React.FC<StackProps> = ({ }) => {
                         />
                         <Heading as='h3' size='lg'>Linux</Heading>
                     </Flex>
-                    <Flex align="center" mb="20px">
+                    <Flex align="center" mb="20px" cursor="default">
                         <Image
                             boxSize='28px'
                             objectFit='cover'

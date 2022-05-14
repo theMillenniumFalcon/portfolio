@@ -39,7 +39,7 @@ const Home: NextPage = () => {
             </Link>
           </Box>
         </Box>
-        <Heading as='h1' size='4xl' isTruncated color="#ff424d" mb="30px" mt="10px">
+        <Heading as='h1' size='4xl' isTruncated color="#ff424d" mb="30px" mt="10px" cursor="default">
           {"Nishank Priydarshi"}
         </Heading>
         <Box>

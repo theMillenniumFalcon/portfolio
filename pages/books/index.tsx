@@ -31,7 +31,18 @@ const Books: React.FC<BooksProps> = ({ }) => {
                                     textDecoration: "none", cursor: "pointer",
                                 }}>
                                     <Text fontSize='5xl' _hover={{ color: '#ff424d' }}>
-                                        002. Fahrenheit 451
+                                        002. Kafka on the Shore
+                                    </Text>
+                                </Link>
+                            </NextLink>
+                        </Box>
+                        <Box mb="20px">
+                            <NextLink href='/books/003'>
+                                <Link style={{
+                                    textDecoration: "none", cursor: "pointer",
+                                }}>
+                                    <Text fontSize='5xl' _hover={{ color: '#ff424d' }}>
+                                        003. Fahrenheit 451
                                     </Text>
                                 </Link>
                             </NextLink>
