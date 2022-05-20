@@ -15,7 +15,6 @@ const Home: NextPage = () => {
         <Box display="flex" alignItems="center" justifyContent="space-between">
           <NextLink href="/" passHref>
             <Image
-              cursor='pointer'
               htmlWidth='210px'
               htmlHeight='70px'
               objectFit='cover'
@@ -57,9 +56,13 @@ const Home: NextPage = () => {
             {"Outside of programming, I enjoy design, reading books and traveling. If you happen to be in the same city I live (currently in New Delhi), maybe we can hang out together."}
           </Text>
           <Text fontSize='4xl' mb="30px">
-            If you are interested you are checkout my recommended <NextLink href="/books" passHref>
+            If you are interested you can also checkout my <NextLink href="/shenanigans" passHref>
               <Link style={{ color: "#ff424d", cursor: "pointer", textDecoration: "none" }}>
-                books here.
+                processing and threejs shenanigans
+              </Link>
+            </NextLink> and my <NextLink href="/books" passHref>
+              <Link style={{ color: "#ff424d", cursor: "pointer", textDecoration: "none" }}>
+              recommended books.
               </Link>
             </NextLink>
           </Text>

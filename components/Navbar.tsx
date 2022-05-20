@@ -10,7 +10,7 @@ const Navbar: React.FC<NavbarProps> = ({ }) => {
     const util = ((router.asPath.split('/')[1]) as unknown) as string
 
     return (
-        <Flex zIndex={1} top={0} height="90px"> 
+        <Flex zIndex={1} top={0} height="75px"> 
             <Flex flex={1} m="auto" maxW="46vw" paddingTop={40} flexWrap="wrap">
                 <NextLink href='/' passHref>
                     <Link style={{
