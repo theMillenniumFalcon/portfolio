@@ -86,6 +86,41 @@ const Project: React.FC<ProjectProps> = ({ }) => {
                         </UnorderedList>
                     </ListItem>
                     <ListItem>
+                        <Heading as='h2' size='xl' mb="5px">{"Battleship"}</Heading>
+                        <UnorderedList>
+                            <ListItem>
+                                <Text fontSize='3xl' mb="3px">
+                                    {"An easy to use engine to make your own Battleship Game made in javascript."}
+                                </Text>
+                            </ListItem>
+                            <ListItem>
+                                <Text fontSize='3xl' mb="5px">
+                                    {"Battleship supports a standalone library, which doesn't rely on anything, except a HTML5 capable browser and is compatible with all major browsers (Chrome, Safari, Firefox, Opera, Edge) and mobile devices."}
+                                </Text>
+                            </ListItem>
+                            <Flex>
+                                <Text fontSize='3xl' color="#ff424d" mr={20}>
+                                    <Link
+                                        href="https://console-battleship.vercel.app/"
+                                        style={{ textDecoration: "none", cursor: "pointer", color: "#ff424d" }}
+                                        target="_blank"
+                                    >
+                                        {"Showcase"}
+                                    </Link>
+                                </Text>
+                                <Text fontSize='3xl' color="#ff424d">
+                                    <Link
+                                        href="https://github.com/theMillenniumFalcon/battleship"
+                                        style={{ textDecoration: "none", cursor: "pointer", color: "#ff424d" }}
+                                        target="_blank"
+                                    >
+                                        {"Code"}
+                                    </Link>
+                                </Text>
+                            </Flex>
+                        </UnorderedList>
+                    </ListItem>
+                    <ListItem>
                         <Heading as='h2' size='xl' mb="5px">{"DNS server"}</Heading>
                         <UnorderedList>
                             <ListItem>
@@ -126,7 +161,7 @@ const Project: React.FC<ProjectProps> = ({ }) => {
                                         style={{ textDecoration: "none", cursor: "pointer", color: "#ff424d" }}
                                         target="_blank"
                                     >
-                                        {"Shoecase"}
+                                        {"Showcase"}
                                     </Link>
                                 </Text>
                                 <Text fontSize='3xl' color="#ff424d">
@@ -161,7 +196,7 @@ const Project: React.FC<ProjectProps> = ({ }) => {
                                         style={{ textDecoration: "none", cursor: "pointer", color: "#ff424d" }}
                                         target="_blank"
                                     >
-                                        {"Shoecase"}
+                                        {"Showcase"}
                                     </Link>
                                 </Text>
                                 <Text fontSize='3xl' color="#ff424d">
@@ -196,7 +231,7 @@ const Project: React.FC<ProjectProps> = ({ }) => {
                                         style={{ textDecoration: "none", cursor: "pointer", color: "#ff424d" }}
                                         target="_blank"
                                     >
-                                        {"Shoecase"}
+                                        {"Showcase"}
                                     </Link>
                                 </Text>
                                 <Text fontSize='3xl' color="#ff424d">
@@ -226,7 +261,7 @@ const Project: React.FC<ProjectProps> = ({ }) => {
                                         style={{ textDecoration: "none", cursor: "pointer", color: "#ff424d" }}
                                         target="_blank"
                                     >
-                                        {"Shoecase"}
+                                        {"Showcase"}
                                     </Link>
                                 </Text>
                                 <Text fontSize='3xl' color="#ff424d">
