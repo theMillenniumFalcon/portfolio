@@ -30,13 +30,13 @@ const Navbar: React.FC<NavbarProps> = ({ }) => {
                         </Text>
                     </Link>
                 </NextLink>
-                <NextLink href='/stack' passHref>
+                <NextLink href='/tools' passHref>
                     <Link style={{
                         textDecoration: "none", cursor: "pointer",
-                        color: String(util) === "stack" ? "#ff424d" : "#ffffff"
+                        color: String(util) === "tools" ? "#ff424d" : "#ffffff"
                     }} mr={12}>
-                        <Text _hover={{ color: '#ff424d' }} color={String(util) === "stack" ? "#ff424d" : "#ffffff"}>
-                            Tech-Stack
+                        <Text _hover={{ color: '#ff424d' }} color={String(util) === "tools" ? "#ff424d" : "#ffffff"}>
+                            Tools
                         </Text>
                     </Link>
                 </NextLink>
