@@ -1,4 +1,4 @@
-import { Box, Heading, UnorderedList, ListItem, Link, Text } from '@chakra-ui/react'
+import { Box, Heading, UnorderedList, ListItem, Link, Text, Flex } from '@chakra-ui/react'
 import React from 'react'
 import { Layout } from '../components/Layout'
 
@@ -13,7 +13,10 @@ const Volunteering: React.FC<VolunteeringProps> = ({ }) => {
                 </Heading>
                 <UnorderedList spacing="30px">
                     <ListItem>
-                        <Heading as='h2' size='xl' mb="5px">I am Remarkable Facilitator</Heading>
+                        <Flex align="center" justify="space-between">
+                            <Heading as='h2' size='xl' mb="5px">I am Remarkable Facilitator</Heading>
+                            <Text><i>Remote</i></Text>
+                        </Flex>
                         <Text fontSize='3xl' color="#ff424d" mb="5px">
                             <Link
                                 href="https://iamremarkable.withgoogle.com/"
@@ -34,7 +37,40 @@ const Volunteering: React.FC<VolunteeringProps> = ({ }) => {
                         </UnorderedList>
                     </ListItem>
                     <ListItem>
-                        <Heading as='h2' size='xl' mb="5px">Contributor</Heading>
+                        <Flex align="center" justify="space-between">
+                            <Heading as='h2' size='xl' mb="5px">Coding Instructor</Heading>
+                            <Text><i>Remote</i></Text>
+                        </Flex>
+                        <Text fontSize='3xl' color="#ff424d" mb="5px">
+                            <Link
+                                href="https://anitab.org/"
+                                style={{ textDecoration: "none", cursor: "pointer", color: "#ff424d" }}
+                                target="_blank"
+                            >
+                                AnitaB.org
+                            </Link>
+                        </Text>
+                        <Text fontSize='3xl' mb="5px">November 2021 - December 2021</Text>
+                        <UnorderedList>
+                            <ListItem>
+                                <Text fontSize='3xl' mb="3px">
+                                    AnitaB.org helps women make significant contributions to technical fields and the programs and awards highlight
+                                    the accomplishments of women technologists, while events and communities enable women to establish their peer
+                                    networks.
+                                </Text>
+                            </ListItem>
+                            <ListItem>
+                                <Text fontSize='3xl' mb="3px">
+                                    I made my contribution to their learning program by conducting doubt sessions masterclasses for students.
+                                </Text>
+                            </ListItem>
+                        </UnorderedList>
+                    </ListItem>
+                    <ListItem>
+                        <Flex align="center" justify="space-between">
+                            <Heading as='h2' size='xl' mb="5px">Contributor</Heading>
+                            <Text><i>Remote</i></Text>
+                        </Flex>
                         <Text fontSize='3xl' color="#ff424d" mb="5px">
                             <Link
                                 href="https://gssoc.girlscript.tech/"
@@ -54,7 +90,10 @@ const Volunteering: React.FC<VolunteeringProps> = ({ }) => {
                         </UnorderedList>
                     </ListItem>
                     <ListItem>
-                        <Heading as='h2' size='xl' mb="5px">Event Coordinator</Heading>
+                        <Flex align="center" justify="space-between">
+                            <Heading as='h2' size='xl' mb="5px">Event Coordinator</Heading>
+                            <Text><i>Remote</i></Text>
+                        </Flex>
                         <Text fontSize='3xl' color="#ff424d" mb="5px">
                             <Link
                                 href="https://spectraverseincusivity.wordpress.com/"

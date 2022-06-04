@@ -65,6 +65,32 @@ const Project: React.FC<ProjectProps> = ({ }) => {
                         </UnorderedList>
                     </ListItem>
                     <ListItem>
+                        <Heading as='h2' size='xl' mb="5px">{"Containerizing a node application & deploying using ECS"}</Heading>
+                        <UnorderedList>
+                            <ListItem>
+                                <Text fontSize='3xl' mb="3px">
+                                    {"In this project, a simple node application and put it into a container for deployment on EC2 Container Service."}
+                                </Text>
+                            </ListItem>
+                            <ListItem>
+                                <Text fontSize='3xl' mb="5px">
+                                    {"ECS also has built in features to roll out deploys with zero downtime, gather metrics and logs from your containers, and auto scale the number of containers you are running based on metrics."}
+                                </Text>
+                            </ListItem>
+                            <Flex>
+                                <Text fontSize='3xl' color="#ff424d">
+                                    <Link
+                                        href="https://github.com/theMillenniumFalcon/node-aws-microservices"
+                                        style={{ textDecoration: "none", cursor: "pointer", color: "#ff424d" }}
+                                        target="_blank"
+                                    >
+                                        {"Code"}
+                                    </Link>
+                                </Text>
+                            </Flex>
+                        </UnorderedList>
+                    </ListItem>
+                    <ListItem>
                         <Heading as='h2' size='xl' mb="5px">{"Mailer"}</Heading>
                         <UnorderedList>
                             <ListItem>

@@ -59,6 +59,16 @@ const Tools: React.FC<StackProps> = ({ }) => {
                                 <Image
                                     boxSize='28px'
                                     objectFit='cover'
+                                    src='assets/tools/tech/node.png'
+                                    alt=''
+                                    mr={4}
+                                />
+                                <Heading as='h3' size='lg'>Node</Heading>
+                            </Flex>
+                            <Flex align="center" mb="20px" cursor="default">
+                                <Image
+                                    boxSize='28px'
+                                    objectFit='cover'
                                     src='assets/tools/tech/graphql.png'
                                     alt=''
                                     mr={4}
@@ -104,6 +114,16 @@ const Tools: React.FC<StackProps> = ({ }) => {
                                     mr={4}
                                 />
                                 <Heading as='h3' size='lg'>Bash</Heading>
+                            </Flex>
+                            <Flex align="center" mb="20px" cursor="default">
+                                <Image
+                                    boxSize='28px'
+                                    objectFit='cover'
+                                    src='assets/tools/tech/nginx.png'
+                                    alt=''
+                                    mr={4}
+                                />
+                                <Heading as='h3' size='lg'>Nginx</Heading>
                             </Flex>
                             <Flex align="center" mb="20px" cursor="default">
                                 <Image
@@ -164,41 +184,11 @@ const Tools: React.FC<StackProps> = ({ }) => {
                                 <Image
                                     boxSize='28px'
                                     objectFit='cover'
-                                    src='assets/tools/design/lightroom.png'
-                                    alt=''
-                                    mr={4}
-                                />
-                                <Heading as='h3' size='lg'>Lightroom</Heading>
-                            </Flex>
-                            <Flex align="center" mb="20px" cursor="default">
-                                <Image
-                                    boxSize='28px'
-                                    objectFit='cover'
                                     src='assets/tools/design/xd.png'
                                     alt=''
                                     mr={4}
                                 />
                                 <Heading as='h3' size='lg'>Adobe Xd</Heading>
-                            </Flex>
-                            <Flex align="center" mb="20px" cursor="default">
-                                <Image
-                                    boxSize='28px'
-                                    objectFit='cover'
-                                    src='assets/tools/design/blender.png'
-                                    alt=''
-                                    mr={4}
-                                />
-                                <Heading as='h3' size='lg'>Blender</Heading>
-                            </Flex>
-                            <Flex align="center" mb="20px" cursor="default">
-                                <Image
-                                    boxSize='28px'
-                                    objectFit='cover'
-                                    src='assets/tools/design/figma.png'
-                                    alt=''
-                                    mr={4}
-                                />
-                                <Heading as='h3' size='lg'>Figma</Heading>
                             </Flex>
                         </SimpleGrid>
                     </ListItem>
