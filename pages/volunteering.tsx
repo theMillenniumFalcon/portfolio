@@ -84,7 +84,7 @@ const Volunteering: React.FC<VolunteeringProps> = ({ }) => {
                         <UnorderedList>
                             <ListItem>
                                 <Text fontSize='3xl' mb="3px">
-                                    Contributed to management and web-dev related projects in Gssoc 2022.
+                                    Contributed to management and web-dev related projects in GirlScript summer of code 2021.
                                 </Text>
                             </ListItem>
                         </UnorderedList>
