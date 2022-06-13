@@ -13,7 +13,7 @@ const Project: React.FC<ProjectProps> = ({ }) => {
                 </Heading>
                 <UnorderedList spacing="30px">
                     <ListItem>
-                        <Heading as='h2' size='xl' mb="5px">{"hideout"}</Heading>
+                        <Heading as='h2' size='xl' mb="5px">{"bonfire"}</Heading>
                         <UnorderedList>
                             <ListItem>
                                 <Text fontSize='3xl' mb="3px">
@@ -28,7 +28,7 @@ const Project: React.FC<ProjectProps> = ({ }) => {
                             <Flex>
                                 <Text fontSize='3xl' color="#ff424d">
                                     <Link
-                                        href="https://github.com/theMillenniumFalcon/hideout"
+                                        href="https://github.com/theMillenniumFalcon/bonfire"
                                         style={{ textDecoration: "none", cursor: "pointer", color: "#ff424d" }}
                                         target="_blank"
                                     >
@@ -81,6 +81,42 @@ const Project: React.FC<ProjectProps> = ({ }) => {
                                 <Text fontSize='3xl' color="#ff424d">
                                     <Link
                                         href="https://github.com/theMillenniumFalcon/node-aws-microservices"
+                                        style={{ textDecoration: "none", cursor: "pointer", color: "#ff424d" }}
+                                        target="_blank"
+                                    >
+                                        {"Code"}
+                                    </Link>
+                                </Text>
+                            </Flex>
+                        </UnorderedList>
+                    </ListItem>
+                    <ListItem>
+                        <Heading as='h2' size='xl' mb="5px">{"ScreenShare"}</Heading>
+                        <UnorderedList>
+                            <ListItem>
+                                <Text fontSize='3xl' mb="3px">
+                                    {"The application intends to let anyone share their screen with one or more number of people. Application is developed using html, css and vanilla javascript."}
+                                </Text>
+                            </ListItem>
+                            <ListItem>
+                                <Text fontSize='3xl' mb="5px">
+                                    {"The application completely respects your privacy and ensures that none of the data will ever be sniffed/saved by me. "}
+                                    {" It also guarantees minimum latency as the connection is peer-to-peer rather than usual peer-to-server-to-peer."}
+                                </Text>
+                            </ListItem>
+                            <Flex>
+                                <Text fontSize='3xl' color="#ff424d" mr={20}>
+                                    <Link
+                                        href="https://screenshare-webrtc.vercel.app/"
+                                        style={{ textDecoration: "none", cursor: "pointer", color: "#ff424d" }}
+                                        target="_blank"
+                                    >
+                                        {"Showcase"}
+                                    </Link>
+                                </Text>
+                                <Text fontSize='3xl' color="#ff424d">
+                                    <Link
+                                        href="https://github.com/theMillenniumFalcon/screenshare-webrtc"
                                         style={{ textDecoration: "none", cursor: "pointer", color: "#ff424d" }}
                                         target="_blank"
                                     >
@@ -158,41 +194,6 @@ const Project: React.FC<ProjectProps> = ({ }) => {
                                 <Text fontSize='3xl' color="#ff424d">
                                     <Link
                                         href="https://github.com/theMillenniumFalcon/private-network-DNS-server"
-                                        style={{ textDecoration: "none", cursor: "pointer", color: "#ff424d" }}
-                                        target="_blank"
-                                    >
-                                        {"Code"}
-                                    </Link>
-                                </Text>
-                            </Flex>
-                        </UnorderedList>
-                    </ListItem>
-                    <ListItem>
-                        <Heading as='h2' size='xl' mb="5px">Blog App</Heading>
-                        <UnorderedList>
-                            <ListItem>
-                                <Text fontSize='3xl' mb="3px">
-                                    {"The frontend of the project was build with nextjs using Javascript as the programming language, the styling UI was done using TailwindCSS."}
-                                </Text>
-                            </ListItem>
-                            <ListItem>
-                                <Text fontSize='3xl' mb="5px">
-                                    {"GraphQL was used the query language for fullfilling the queries while the the addition and deletion is done using graphCMS."}
-                                </Text>
-                            </ListItem>
-                            <Flex>
-                                <Text fontSize='3xl' color="#ff424d" mr={20}>
-                                    <Link
-                                        href="https://next-serverless-bpc5r08e9-themillenniumfalcon.vercel.app/"
-                                        style={{ textDecoration: "none", cursor: "pointer", color: "#ff424d" }}
-                                        target="_blank"
-                                    >
-                                        {"Showcase"}
-                                    </Link>
-                                </Text>
-                                <Text fontSize='3xl' color="#ff424d">
-                                    <Link
-                                        href="https://github.com/theMillenniumFalcon/graphql-next"
                                         style={{ textDecoration: "none", cursor: "pointer", color: "#ff424d" }}
                                         target="_blank"
                                     >
