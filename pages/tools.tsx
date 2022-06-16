@@ -99,6 +99,16 @@ const Tools: React.FC<StackProps> = ({ }) => {
                                 <Image
                                     boxSize='28px'
                                     objectFit='cover'
+                                    src='assets/tools/tech/redis.png'
+                                    alt=''
+                                    mr={4}
+                                />
+                                <Heading as='h3' size='lg'>Redis</Heading>
+                            </Flex>
+                            <Flex align="center" mb="20px" cursor="default">
+                                <Image
+                                    boxSize='28px'
+                                    objectFit='cover'
                                     src='assets/tools/tech/docker.png'
                                     alt=''
                                     mr={4}
@@ -124,6 +134,16 @@ const Tools: React.FC<StackProps> = ({ }) => {
                                     mr={4}
                                 />
                                 <Heading as='h3' size='lg'>Nginx</Heading>
+                            </Flex>
+                            <Flex align="center" mb="20px" cursor="default">
+                                <Image
+                                    boxSize='28px'
+                                    objectFit='cover'
+                                    src='assets/tools/tech/github-actions.png'
+                                    alt=''
+                                    mr={4}
+                                />
+                                <Heading as='h3' size='lg'>Actions</Heading>
                             </Flex>
                             <Flex align="center" mb="20px" cursor="default">
                                 <Image
